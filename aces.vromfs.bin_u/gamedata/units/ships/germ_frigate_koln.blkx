@@ -2153,12 +2153,6 @@
       },
       {
         "name": [
-          "engine_room_01_dm",
-          "engine_room_02_dm",
-          "engine_room_03_dm",
-          "engine_room_04_dm",
-          "engine_room_05_dm",
-          "engine_room_06_dm",
           "transmission_01_dm",
           "transmission_02_dm",
           "transmission_03_dm",
@@ -2181,39 +2175,13 @@
           "engine_room_05_dm",
           "engine_room_06_dm"
         ],
-        "onHit": [
-          {
-            "damageType": "explosion",
-            "damage": 200.0,
-            "action": {
-              "type": "fxEvent",
-              "fxEventName": "steam_leak"
-            }
-          },
-          {
-            "damageType": "generic",
-            "damage": 300.0,
-            "action": {
-              "type": "fxEvent",
-              "fxEventName": "steam_leak"
-            }
-          },
-          {
-            "damageType": "shatter",
-            "damage": 10.0,
-            "action": {
-              "type": "fxEvent",
-              "fxEventName": "steam_leak"
-            }
-          }
-        ],
         "onKill": {
           "expl": 1.0,
           "fHitCritical": false,
           "action": {
             "type": "fxEvent",
             "probability": 1.0,
-            "fxEventName": "steam_explosion_big"
+            "fxEventName": "steam_leak"
           }
         }
       },
@@ -2998,8 +2966,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3010,6 +2978,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_01",
           "gun": "aa_gun_02",
@@ -3144,8 +3122,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3156,6 +3134,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_01",
           "gun": "aa_gun_01",
@@ -3266,8 +3254,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3278,6 +3266,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_02",
           "gun": "aa_gun_03",
@@ -3370,8 +3368,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3382,6 +3380,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_03",
           "gun": "aa_gun_04",
@@ -3474,8 +3482,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3486,6 +3494,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_04",
           "gun": "aa_gun_05",
@@ -3584,8 +3602,8 @@
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "allowableDelta": 1.0,
-        "ChainfireTime": 60.0,
-        "DelayAfterShoot": 0.0,
+        "ChainfireTime": 1.5,
+        "DelayAfterShoot": 0.75,
         "AttackMaxRadius": 10000.0,
         "randomAngle": 0.0,
         "accuracyAir": 0.78,
@@ -3596,6 +3614,16 @@
         "errMeasureVelFwdShift": 0.5,
         "errMeasureVelDir": 1.0,
         "errTargetting": 0.75,
+        "targetMsl": true,
+        "shellMassRange": [
+          30.0,
+          1500.0
+        ],
+        "shellSpeedRange": [
+          200.0,
+          600.0
+        ],
+        "AttackShellMaxRadius": 7000.0,
         "turret": {
           "head": "aa_turret_04",
           "gun": "aa_gun_06",
@@ -3862,6 +3890,18 @@
       "reqModification": "ship_depth_charge",
       "tier": 4
     }
+  },
+  "boilerExplosionFx": {
+    "fx": [
+      {
+        "gearFrom": 0.0,
+        "event": "steam_explosion_medium"
+      },
+      {
+        "gearFrom": 3.0,
+        "event": "steam_explosion_big"
+      }
+    ]
   },
   "shipFuelLeakFxParams": {
     "fuelLeakFxName": "fire_burning_fuel_oil_med",
@@ -4997,7 +5037,7 @@
       },
       {
         "name": "steam_leak",
-        "lifetime": 8.0,
+        "lifetime": 5.0,
         "fx": {
           "name": "explosion_steam_leak"
         }

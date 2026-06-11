@@ -194650,6 +194650,18 @@
       }
     },
     {
+      "id": "tutorial_tank_AB_test_completed",
+      "type": "achievement",
+      "hidden": true,
+      "mode": {
+        "type": "char_always_progress",
+        "condition": {
+          "type": "char_mission_completed",
+          "name": "tutorial/tutorial_tank_basics_arcade_v2"
+        }
+      }
+    },
+    {
       "id": "tutorial_boat_basic_arcade_completed",
       "type": "achievement",
       "hidden": true,
@@ -194684,7 +194696,8 @@
           "tutorialB_fighter_completed",
           "tutorial_tank_basics_arcade_completed",
           "tutorial_boat_basic_arcade_completed",
-          "tutorial_destroyer_basics_arcade_completed"
+          "tutorial_destroyer_basics_arcade_completed",
+          "tutorial_tank_AB_test_completed"
         ]
       }
     },
@@ -194774,6 +194787,7 @@
             "unlock": [
               "tutorialB_fighter_completed",
               "tutorial_tank_basics_arcade_completed",
+              "tutorial_tank_AB_test_completed",
               "tutorial_boat_basic_arcade_completed",
               "tutorial_destroyer_basics_arcade_completed"
             ]

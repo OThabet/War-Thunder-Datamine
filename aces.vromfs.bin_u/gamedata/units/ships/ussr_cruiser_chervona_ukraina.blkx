@@ -58,9 +58,6 @@
     3.3,
     -1.5
   ],
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress.ddsx",
-  "customTooltipImage": "!#ui/aircrafts/image_in_progress.avif",
   "hideNodesInDmg": {
     "node": "flag"
   },
@@ -300,9 +297,9 @@
       "pelvisNode": "Bip01 Pelvis",
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
-        0.0,
-        0.0,
-        0.0
+        -1.0,
+        -1.0,
+        0.5
       ],
       "suffix": "3",
       "deadHeadAttitudeMin": -55.0,
@@ -363,9 +360,9 @@
       "pelvisNode": "Bip01 Pelvis",
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
-        0.0,
-        0.0,
-        0.0
+        -1.0,
+        -1.0,
+        0.5
       ],
       "suffix": "4",
       "deadHeadAttitudeMin": -55.0,
@@ -1435,7 +1432,7 @@
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
         0.0,
-        -0.5,
+        0.0,
         0.0
       ],
       "suffix": "21",
@@ -1498,7 +1495,7 @@
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
         0.0,
-        -0.5,
+        0.0,
         0.0
       ],
       "suffix": "22",
@@ -1560,9 +1557,9 @@
       "pelvisNode": "Bip01 Pelvis",
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
-        0.0,
-        -0.5,
-        0.0
+        -1.0,
+        -1.0,
+        0.5
       ],
       "suffix": "23",
       "deadHeadAttitudeMin": -55.0,
@@ -1623,9 +1620,9 @@
       "pelvisNode": "Bip01 Pelvis",
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
-        0.0,
-        -0.5,
-        0.0
+        -1.0,
+        -1.0,
+        0.5
       ],
       "suffix": "24",
       "deadHeadAttitudeMin": -55.0,
@@ -1812,9 +1809,9 @@
       "pelvisNode": "Bip01 Pelvis",
       "pelvisTargetNode": "Bip01 Pelvis_",
       "crouchDelta": [
-        0.0,
-        0.0,
-        0.0
+        -1.0,
+        -1.0,
+        0.5
       ],
       "suffix": "27",
       "deadHeadAttitudeMin": -55.0,
@@ -4558,7 +4555,7 @@
         920.0
       ],
       "CenterOfGravity": [
-        -2.5,
+        -3.5,
         -0.9,
         0.0
       ]
@@ -4730,14 +4727,14 @@
     "headPos": [
       0.0,
       29.0,
-      -103.0
+      -98.0
     ],
     "headPosOnShooting": [
-      42.6,
+      53.6,
       31.8,
       0.0
     ],
-    "detectionHeight": 36.0
+    "detectionHeight": 44.0
   },
   "sound": {
     "EngineName": "engine_shipbig01",
@@ -4788,6 +4785,10 @@
         }
       }
     ]
+  },
+  "shipDamageControl": {
+    "shipDamageControlEnabled": true,
+    "shipDamageControlCoeff": 0.387
   },
   "commonWeapons": {
     "animatedBones": {
@@ -6519,6 +6520,7 @@
         "breechDP": "aa_gun_01_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -6620,6 +6622,7 @@
         "breechDP": "aa_gun_02_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -6721,6 +6724,7 @@
         "breechDP": "aa_gun_03_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -6810,6 +6814,7 @@
         "breechDP": "aa_gun_04_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -6899,6 +6904,7 @@
         "breechDP": "aa_gun_05_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -6994,6 +7000,7 @@
         "breechDP": "aa_gun_06_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 18.0,
         "speedPitch": 20.0,
         "bullets": 500,
@@ -7089,6 +7096,7 @@
         "breechDP": "aa_gun_07_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7109,7 +7117,18 @@
         "turret": {
           "head": "aa_turret_07",
           "gun": "aa_gun_07",
-          "gunnerDm": "aa_turret_07_dm"
+          "gunnerDm": "aa_turret_07_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_01",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7162,6 +7181,7 @@
         "breechDP": "aa_gun_08_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7182,7 +7202,18 @@
         "turret": {
           "head": "aa_turret_08",
           "gun": "aa_gun_08",
-          "gunnerDm": "aa_turret_08_dm"
+          "gunnerDm": "aa_turret_08_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_02",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7235,6 +7266,7 @@
         "breechDP": "aa_gun_09_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7255,7 +7287,18 @@
         "turret": {
           "head": "aa_turret_09",
           "gun": "aa_gun_09",
-          "gunnerDm": "aa_turret_09_dm"
+          "gunnerDm": "aa_turret_09_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_03",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7330,6 +7373,7 @@
         "breechDP": "aa_gun_10_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7350,7 +7394,18 @@
         "turret": {
           "head": "aa_turret_10",
           "gun": "aa_gun_10",
-          "gunnerDm": "aa_turret_10_dm"
+          "gunnerDm": "aa_turret_10_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_04",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7425,6 +7480,7 @@
         "breechDP": "aa_gun_11_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7445,7 +7501,18 @@
         "turret": {
           "head": "aa_turret_11",
           "gun": "aa_gun_11",
-          "gunnerDm": "aa_turret_11_dm"
+          "gunnerDm": "aa_turret_11_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_05",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7504,6 +7571,7 @@
         "breechDP": "aa_gun_12_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7524,7 +7592,18 @@
         "turret": {
           "head": "aa_turret_12",
           "gun": "aa_gun_12",
-          "gunnerDm": "aa_turret_12_dm"
+          "gunnerDm": "aa_turret_12_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_06",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -7583,6 +7662,7 @@
         "breechDP": "aa_gun_13_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
+        "isBulletBelt": true,
         "speedYaw": 75.0,
         "speedPitch": 65.0,
         "bullets": 2000,
@@ -7603,7 +7683,18 @@
         "turret": {
           "head": "aa_turret_13",
           "gun": "aa_gun_13",
-          "gunnerDm": "aa_turret_13_dm"
+          "gunnerDm": "aa_turret_13_dm",
+          "linkedAnimPart": {
+            "verNode": "bone_radius_foot_07",
+            "verLimits": [
+              0.0,
+              8.0
+            ],
+            "verOriginLimits": [
+              0.0,
+              65.0
+            ]
+          }
         },
         "limits": {
           "yaw": [
@@ -10439,7 +10530,7 @@
       },
       {
         "node": "main_caliber_turret_05",
-        "idx": 4,
+        "idx": 3,
         "mass": 1200.0,
         "cutDamage": 350.0,
         "deviation": 0.6,
@@ -10448,7 +10539,7 @@
       },
       {
         "node": "tt_01",
-        "idx": 5,
+        "idx": 4,
         "mass": 1100.0,
         "cutDamage": 350.0,
         "deviation": 0.6,
@@ -10457,7 +10548,7 @@
       },
       {
         "node": "tt_02",
-        "idx": 6,
+        "idx": 5,
         "mass": 1200.0,
         "cutDamage": 350.0,
         "deviation": 0.6,
@@ -10466,7 +10557,7 @@
       },
       {
         "node": "tt_03",
-        "idx": 7,
+        "idx": 6,
         "mass": 1300.0,
         "cutDamage": 350.0,
         "deviation": 0.6,
@@ -10475,7 +10566,7 @@
       },
       {
         "node": "tt_04",
-        "idx": 8,
+        "idx": 7,
         "mass": 1300.0,
         "cutDamage": 350.0,
         "deviation": 0.6,

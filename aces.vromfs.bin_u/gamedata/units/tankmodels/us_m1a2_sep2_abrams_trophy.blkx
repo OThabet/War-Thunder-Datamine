@@ -60,9 +60,6 @@
   "smokeScreenFx": "smokescreen_no_therm_small",
   "smokeVisibilityType1": "visual",
   "smokeVisibilityType2": "optic",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress.ddsx",
-  "customTooltipImage": "!#ui/aircrafts/image_in_progress.avif",
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -3288,9 +3285,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 62000.0,
+      "Empty": 65500.0,
       "Fuel": 1000.0,
-      "TakeOff": 63000.0,
+      "TakeOff": 66500.0,
       "momentOfInertia": [
         3.0,
         2.5,

@@ -2692,7 +2692,7 @@
             "futureReqAir": "germ_hummel"
           },
           "germ_m44_55_group": {
-            "image": "#ui/unitskin#germ_jagdpanzer_group",
+            "image": "#ui/unitskin#germ_m44_55_group",
             "germ_m44": {
               "rank": 3
             },
@@ -3896,8 +3896,7 @@
           },
           "mig-21_sps_k": {
             "rank": 6,
-            "reqAir": "",
-            "showOnlyWhenAvailableForPurchase": true
+            "reqAir": ""
           },
           "mig-21_bis_lazur": {
             "rank": 7,
@@ -4281,8 +4280,7 @@
           },
           "germ_cruiser_prinz_eugen": {
             "rank": 4,
-            "reqAir": "",
-            "showOnlyWhenAvailableForPurchase": true
+            "reqAir": ""
           },
           "germ_battleship_nassau": {
             "rank": 5,
@@ -5184,7 +5182,7 @@
             "rank": 2,
             "reqAir": "",
             "gift": "msi_notebook",
-            "marketplaceItemdefId": 50366,
+            "marketplaceItemdefId": 50367,
             "hideFeature": "!Marketplace",
             "event": "2026_05_tank"
           },
@@ -11833,6 +11831,9 @@
           },
           "tornado_adv": {
             "rank": 7
+          },
+          "m_346fa": {
+            "rank": 8
           }
         },
         {
@@ -11959,9 +11960,6 @@
           },
           "su_22m3_hungary": {
             "rank": 7
-          },
-          "m_346fa": {
-            "rank": 8
           }
         },
         {
@@ -13333,8 +13331,7 @@
           },
           "mirage_milan": {
             "rank": 6,
-            "reqAir": "",
-            "showOnlyWhenAvailableForPurchase": true
+            "reqAir": ""
           },
           "nf_5a_netherlands": {
             "rank": 7,
@@ -13693,8 +13690,9 @@
             "rank": 3,
             "reqAir": "",
             "gift": "msi_notebook",
-            "event": "2026_05_ship",
-            "eventLabelId": "2026_05_ship"
+            "marketplaceItemdefId": 50369,
+            "hideFeature": "!Marketplace",
+            "event": "2026_05_ship"
           }
         }
       ]
@@ -13864,16 +13862,17 @@
           "sw_crotale_ng": {
             "rank": 8
           },
-          "sw_eldenhet_98": {
-            "rank": 8
-          },
-          "sw_nomads": {
-            "rank": 8
+          "sw_eldenhet_nomads_group": {
+            "image": "#ui/unitskin#sw_lvkv_asrad_group",
+            "sw_eldenhet_98": {
+              "rank": 8
+            },
+            "sw_nomads": {
+              "rank": 8
+            }
           },
           "sw_nasams_fcs": {
             "rank": 8,
-            "reqAir": "sw_eldenhet_98",
-            "futureReqAir": "sw_nomads",
             "slaveUnit": "sw_nasams_launcher",
             "image": "#ui/unitskin#germ_iris_slm_group"
           }
@@ -14578,7 +14577,7 @@
             "rank": 5
           },
           "il_gimel_tiran_group": {
-            "image": "#ui/unitskin#il_merkava_1_2_group",
+            "image": "#ui/unitskin#il_gimel_tiran_group",
             "il_centurion_shot_kal_gimel": {
               "rank": 6
             },

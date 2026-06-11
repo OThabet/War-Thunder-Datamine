@@ -18,7 +18,7 @@
   "laserDesignator": true,
   "ilsElbit967": true,
   "mfdCamLitening2": true,
-  "hmdF16c": true,
+  "hmdA10c": true,
   "hasHelmetDesignator": true,
   "helmetDesignatorZone0": [
     -40.0,
@@ -4118,7 +4118,7 @@
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/us_lau118_launcher_agm_88c.blk",
-              "emitter": "ter_001",
+              "emitter": "bomb_2000lb_001",
               "bullets": 1,
               "external": true,
               "separate": true
@@ -4140,7 +4140,7 @@
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/rocketGuns/us_agm_84d.blk",
-              "emitter": "ter_001",
+              "emitter": "bomb_2000lb_001",
               "bullets": 1
             }
           }
@@ -4385,7 +4385,7 @@
             },
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/bru_55_gbu_62_laser.blk",
+              "blk": "gameData/Weapons/BombGuns/us_500lb_gbu_62_ljdam_er.blk",
               "emitter": "bomb_2000lb_002",
               "bullets": 1,
               "external": true,
@@ -4523,7 +4523,7 @@
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/us_lau118_launcher_agm_88c.blk",
-              "emitter": "ter_002",
+              "emitter": "bomb_2000lb_002",
               "bullets": 1,
               "external": true,
               "separate": true
@@ -4860,7 +4860,7 @@
             },
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/bru_55_gbu_62_laser.blk",
+              "blk": "gameData/Weapons/BombGuns/us_500lb_gbu_62_ljdam_er.blk",
               "emitter": "bomb_2000lb_003",
               "bullets": 1,
               "external": true,
@@ -4998,7 +4998,7 @@
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/us_lau118_launcher_agm_88c.blk",
-              "emitter": "ter_003",
+              "emitter": "bomb_2000lb_003",
               "bullets": 1,
               "external": true,
               "separate": true
@@ -5537,7 +5537,7 @@
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/us_lau118_launcher_agm_88c.blk",
-              "emitter": "ter_004",
+              "emitter": "bomb_2000lb_004",
               "bullets": 1,
               "external": true,
               "separate": true
@@ -5559,7 +5559,7 @@
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/rocketGuns/us_agm_84d.blk",
-              "emitter": "ter_004",
+              "emitter": "bomb_2000lb_004",
               "bullets": 1
             }
           }

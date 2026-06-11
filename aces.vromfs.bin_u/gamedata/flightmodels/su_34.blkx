@@ -30,6 +30,7 @@
     2.0,
     0.0
   ],
+  "airWeaponCircleOffset": 6.0,
   "type": "typeFighter",
   "advancedInstructor": true,
   "standardExhaustFxType": "jet_exhaust_heavy",
@@ -3601,7 +3602,7 @@
   "gunnerOpticFps": {
     "Target": {
       "pos": [
-        1.2,
+        1.4,
         -0.45,
         0.0
       ],
