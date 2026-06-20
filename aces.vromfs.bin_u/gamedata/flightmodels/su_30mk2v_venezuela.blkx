@@ -3235,11 +3235,22 @@
         "dmPart": "radar_dm"
       },
       {
+        "blk": "gameData/sensors/su_spo_150_esm.blk"
+      },
+      {
         "blk": "gameData/sensors/su_spo-150-14.blk"
       },
       {
         "blk": "gameData/sensors/LaserDesignatorSensor.blk",
         "node": "optic1_gun"
+      }
+    ],
+    "sensorsMode": [
+      {
+        "blockSensorIndex": 1
+      },
+      {
+        "blockSensorIndex": 0
       }
     ]
   },
@@ -4541,7 +4552,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -4566,7 +4578,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -4591,7 +4604,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -4616,7 +4630,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -5152,7 +5167,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5177,7 +5193,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5202,7 +5219,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5227,7 +5245,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5493,7 +5512,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -5518,7 +5538,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -5543,7 +5564,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -5568,7 +5590,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -6417,7 +6440,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -6442,7 +6466,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -6467,7 +6492,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -6492,7 +6518,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -6778,7 +6805,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -6803,7 +6831,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -6828,7 +6857,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -6853,7 +6883,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -7461,7 +7492,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {
@@ -7486,7 +7518,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {
@@ -7511,7 +7544,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {
@@ -7536,7 +7570,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {

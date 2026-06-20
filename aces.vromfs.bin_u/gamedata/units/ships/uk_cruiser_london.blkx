@@ -3401,12 +3401,6 @@
     "part": [
       {
         "name": [
-          "engine_room_01_dm",
-          "engine_room_02_dm",
-          "engine_room_03_dm",
-          "engine_room_04_dm",
-          "engine_room_05_dm",
-          "engine_room_06_dm",
           "transmission_01_dm",
           "transmission_02_dm",
           "transmission_03_dm",
@@ -3417,6 +3411,25 @@
         "onKill": {
           "fire": 0.15,
           "nothing": 0.85,
+          "fHitCritical": false
+        }
+      },
+      {
+        "name": [
+          "engine_room_01_dm",
+          "engine_room_02_dm",
+          "engine_room_03_dm",
+          "engine_room_04_dm",
+          "engine_room_05_dm",
+          "engine_room_06_dm",
+          "engine_room_07_dm",
+          "engine_room_08_dm",
+          "engine_room_09_dm",
+          "engine_room_10_dm"
+        ],
+        "onKill": {
+          "expl": 0.25,
+          "nothing": 0.75,
           "fHitCritical": false
         }
       },
@@ -5300,7 +5313,7 @@
           ],
           "pitch": [
             -6.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -5308,31 +5321,31 @@
             -180.0,
             -158.0,
             50.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -158.0,
             -3.0,
             -7.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -3.0,
             13.0,
             -1.0,
-            90.0
+            85.0
           ],
           "lim4": [
             13.0,
             72.0,
             29.0,
-            90.0
+            85.0
           ],
           "lim5": [
             72.0,
             180.0,
             78.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -5387,7 +5400,7 @@
           ],
           "pitch": [
             -6.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -5395,31 +5408,31 @@
             -180.0,
             -72.0,
             78.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -72.0,
             -13.0,
             29.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -13.0,
             3.0,
             -1.0,
-            90.0
+            85.0
           ],
           "lim4": [
             3.0,
             158.0,
             -7.0,
-            90.0
+            85.0
           ],
           "lim5": [
             158.0,
             180.0,
             50.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -5474,7 +5487,7 @@
           ],
           "pitch": [
             -6.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -5482,49 +5495,49 @@
             -180.0,
             -171.0,
             18.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -171.0,
             -168.0,
             18.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -168.0,
             -127.0,
             63.0,
-            90.0
+            85.0
           ],
           "lim4": [
             -127.0,
             -10.0,
             32.0,
-            90.0
+            85.0
           ],
           "lim5": [
             -10.0,
             9.0,
             10.0,
-            90.0
+            85.0
           ],
           "lim6": [
             9.0,
             143.0,
             -6.0,
-            90.0
+            85.0
           ],
           "lim7": [
             143.0,
             173.0,
             0.0,
-            90.0
+            85.0
           ],
           "lim8": [
             173.0,
             180.0,
             12.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -5579,7 +5592,7 @@
           ],
           "pitch": [
             -6.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -5587,43 +5600,43 @@
             -180.0,
             -168.0,
             18.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -168.0,
             -127.0,
             63.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -127.0,
             -10.0,
             32.0,
-            90.0
+            85.0
           ],
           "lim4": [
             -10.0,
             9.0,
             10.0,
-            90.0
+            85.0
           ],
           "lim5": [
             9.0,
             143.0,
             -6.0,
-            90.0
+            85.0
           ],
           "lim6": [
             143.0,
             173.0,
             0.0,
-            90.0
+            85.0
           ],
           "lim7": [
             173.0,
             180.0,
             12.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -9152,6 +9165,18 @@
       }
     }
   },
+  "boilerExplosionFx": {
+    "fx": [
+      {
+        "gearFrom": 0.0,
+        "event": "steam_explosion_big"
+      },
+      {
+        "gearFrom": 3.0,
+        "event": "steam_explosion_big"
+      }
+    ]
+  },
   "shipFuelLeakFxParams": {
     "fuelLeakFxName": "fire_burning_fuel_oil_large",
     "fuelLeakStayFxName": "fire_burning_fuel_oil_large",
@@ -10304,6 +10329,31 @@
         "fx": {
           "name": "smoke_after_hit_small",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "steam_leak",
+        "lifetime": 10.0,
+        "fx": {
+          "name": "explosion_steam_leak"
+        }
+      },
+      {
+        "name": "steam_explosion_medium",
+        "fx": {
+          "name": "explosion_steam_medium"
+        }
+      },
+      {
+        "name": "steam_explosion_big",
+        "fx": {
+          "name": "explosion_steam_big"
+        }
+      },
+      {
+        "name": "steam_explosion_nuclear",
+        "fx": {
+          "name": "explosion_steam_nuclear"
         }
       },
       {

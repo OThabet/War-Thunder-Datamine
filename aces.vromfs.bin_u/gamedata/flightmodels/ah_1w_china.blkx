@@ -1903,7 +1903,10 @@
       },
       {
         "name": "ah_1w_agm_122",
-        "blk": "gameData/flightModels/weaponPresets/ah_1w_agm_122.blk"
+        "blk": "gameData/flightModels/weaponPresets/ah_1w_agm_122.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "ah_1w_rocket",
@@ -1980,7 +1983,8 @@
         "cannon4_dm",
         "cover5_dm",
         "cannon5_dm",
-        "cover6_dm"
+        "cover6_dm",
+        "ircm1_dm"
       ]
     },
     "WeaponSlot": [
@@ -2150,6 +2154,9 @@
             "name": "m197_ircm_ltc_common",
             "ShowNodes": {
               "node": "lipa"
+            },
+            "ShowDmParts": {
+              "node": "ircm1_dm"
             },
             "Weapon": [
               {

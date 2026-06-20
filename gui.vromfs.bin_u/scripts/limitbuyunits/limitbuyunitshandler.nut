@@ -25,6 +25,8 @@ let { buildDateTimeStr, TIME_DAY_IN_SECONDS, TIME_HOUR_IN_SECONDS } = require("%
 let { openPopupFilter } = require("%scripts/popups/popupFilterWidget.nut")
 let { isUnitLocNameMatchSearchStr } = require("%scripts/shop/shopSearchCore.nut")
 let { getFiltersView, applyFilterChange, getSelectedFilters } = require("%scripts/limitBuyUnits/limitBuyUnitsFilter.nut")
+let { getUnitBuyTypes, isIntersects, isFullyIncluded,
+  getUnitAvailabilityForBuyType } = require("%scripts/limitBuyUnits/filterUtils.nut")
 let { showUnitGoods } = require("%scripts/onlineShop/onlineShopModel.nut")
 let { buyUnit } = require("%scripts/unit/unitActions.nut")
 let { canBuyUnit } = require("%scripts/unit/unitShopInfo.nut")
@@ -43,6 +45,8 @@ let { updateEntitlementsLimited } = require("%scripts/onlineShop/entitlementsUpd
 let { addTask } = require("%scripts/tasker.nut")
 let { canStartPreviewScene } = require("%scripts/customization/contentPreview.nut")
 let { destroyModalInfo } = require("%scripts/modalInfo/modalInfo.nut")
+
+const MAX_SHOW_UNITS = 50
 
 function getPromoteUnits() {
   let units = promoteUnits.get().values().filter(@(v) v.isActive)
@@ -110,6 +114,16 @@ function filterUnitsListFunc(unit, nameFilter) {
   if(ranks.len() > 0 && !ranks.contains(unit.rank))
     return false
 
+  
+  let buyTypes = selectedFilters?.buyType ?? []
+  if(buyTypes.len() > 0 && !isIntersects(buyTypes, getUnitBuyTypes(unit)))
+    return false
+
+  
+  let availability = selectedFilters?.availability ?? []
+  let unitAvailabilityType = getUnitAvailabilityForBuyType(unit)
+  if(availability.len() > 0 && !isFullyIncluded(unitAvailabilityType, availability))
+    return false
   return true
 }
 
@@ -327,6 +341,10 @@ let class LimitBuyUnitsHandler (gui_handlers.BaseGuiHandlerWT) {
       this.listEmptyTextObj.setValue(loc("wishlist/filter/filterStrong"))
       return
     }
+
+    showObjById("to_many_vehicles_text", this.filteredUnits.len() > MAX_SHOW_UNITS, this.scene)
+    if (this.filteredUnits.len() > MAX_SHOW_UNITS)
+      this.filteredUnits.resize(MAX_SHOW_UNITS)
 
     let units = this.filteredUnits.map(@(unitData) createUnitViewData(unitData))
     let data = handyman.renderCached("%gui/limitBuyUnits/limitBuyUnit.tpl", { units })

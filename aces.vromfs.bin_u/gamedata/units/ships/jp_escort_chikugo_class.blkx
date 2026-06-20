@@ -30,6 +30,7 @@
   "explosionFx": "explosion_ship_medium",
   "decorCutProps": "destroyer",
   "propSplashEffects": "propSplashEffects_underwater",
+  "boilerOverpressureStartFx": "steam_leak",
   "deadCoverCountToDelayedSinking": 2,
   "delayedSinkingBreachesFreq": 3.0,
   "delayedSinkingBreachesSize": [
@@ -1619,13 +1620,9 @@
           "engine_room_06_dm"
         ],
         "onKill": {
-          "expl": 1.0,
-          "fHitCritical": false,
-          "action": {
-            "type": "fxEvent",
-            "probability": 1.0,
-            "fxEventName": "steam_leak"
-          }
+          "expl": 0.25,
+          "nothing": 0.75,
+          "fHitCritical": false
         }
       },
       {
@@ -2474,7 +2471,7 @@
           ],
           "pitch": [
             -15.0,
-            88.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2482,55 +2479,55 @@
             -180.0,
             -163.0,
             54.0,
-            88.0
+            85.0
           ],
           "lim2": [
             -163.0,
             -140.0,
             -3.0,
-            88.0
+            85.0
           ],
           "lim3": [
             -140.0,
             -40.0,
             -10.0,
-            88.0
+            85.0
           ],
           "lim4": [
             -40.0,
             -20.0,
             -5.0,
-            88.0
+            85.0
           ],
           "lim5": [
             -20.0,
             20.0,
             -2.0,
-            88.0
+            85.0
           ],
           "lim6": [
             20.0,
             40.0,
             -5.0,
-            88.0
+            85.0
           ],
           "lim7": [
             40.0,
             140.0,
             -10.0,
-            88.0
+            85.0
           ],
           "lim8": [
             140.0,
             163.0,
             -3.0,
-            88.0
+            85.0
           ],
           "lim9": [
             163.0,
             180.0,
             54.0,
-            88.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2584,7 +2581,7 @@
           ],
           "pitch": [
             -15.0,
-            88.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2592,55 +2589,55 @@
             -180.0,
             -163.0,
             54.0,
-            88.0
+            85.0
           ],
           "lim2": [
             -163.0,
             -140.0,
             -3.0,
-            88.0
+            85.0
           ],
           "lim3": [
             -140.0,
             -40.0,
             -10.0,
-            88.0
+            85.0
           ],
           "lim4": [
             -40.0,
             -20.0,
             -5.0,
-            88.0
+            85.0
           ],
           "lim5": [
             -20.0,
             20.0,
             -2.0,
-            88.0
+            85.0
           ],
           "lim6": [
             20.0,
             40.0,
             -5.0,
-            88.0
+            85.0
           ],
           "lim7": [
             40.0,
             140.0,
             -10.0,
-            88.0
+            85.0
           ],
           "lim8": [
             140.0,
             163.0,
             -3.0,
-            88.0
+            85.0
           ],
           "lim9": [
             163.0,
             180.0,
             54.0,
-            88.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2799,7 +2796,7 @@
       },
       {
         "gearFrom": 3.0,
-        "event": "steam_explosion_big"
+        "event": "steam_explosion_medium"
       }
     ]
   },
@@ -3937,7 +3934,7 @@
       },
       {
         "name": "steam_leak",
-        "lifetime": 5.0,
+        "lifetime": 10.0,
         "fx": {
           "name": "explosion_steam_leak"
         }

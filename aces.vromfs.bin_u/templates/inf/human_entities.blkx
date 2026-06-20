@@ -742,6 +742,7 @@
       "human_weap__weapTemplates",
       "human_weap__inspectStartTime",
       "human_weap__inspectEndTime",
+      "inspectOnSpawnRequested",
       "human_weap__reloadAtTime",
       "human_weap__reloadFinishTime",
       "human_weap__reloadStartTime",
@@ -787,6 +788,7 @@
     "human_weap__reloadBlockedForAI": false,
     "human_weap__inspectStartTime": -1.0,
     "human_weap__inspectEndTime": -1.0,
+    "inspectOnSpawnRequested": false,
     "human_weap__singleReload": false,
     "human_weap__singleReloadAmmoCount": 0,
     "human_weap__isDualMagReload": false,
@@ -1192,6 +1194,7 @@
       0.0,
       0.0
     ],
+    "camera__breathOffsetAimMult": 0.7,
     "isCameraTarget": false,
     "camera__isStabilized": true,
     "camera__stabilizationVector": [
@@ -1780,6 +1783,7 @@
     "human_anim__bipodVarId": -1,
     "human_anim__gunPitchVarId": -1,
     "human_anim__persCourseVarId": -1,
+    "human_anim__bodyDirVarId": -1,
     "human_anim__changeWeaponVarId": -1,
     "human_anim__changeDirVarId": -1,
     "human_anim__reloadVarId": -1,
@@ -2078,6 +2082,7 @@
     "pickupItemName": "",
     "useActionAvailable": 0,
     "_tracked": [
+      "human_use_object__vehicleSeatEid",
       "useActionAvailable",
       "lookAtEid",
       "useActionEid",
@@ -2085,6 +2090,7 @@
       "pickupItemName",
       "customUsePrompt"
     ],
+    "human_use_object__vehicleSeatEid:eid": {},
     "pickupItemEid:eid": {},
     "useActionEid:eid": {},
     "lookAtEid:eid": {},
@@ -2652,6 +2658,8 @@
     "maxVehicleVelocityCanReEnter": -1.0,
     "human_vehicle_anim__upperId": -1,
     "human_vehicle_anim__lowerId": -1,
+    "human_vehicle_anim__fireReadyUpperId": -1,
+    "human_vehicle_anim__fireReadyLowerId": -1,
     "human_vehicle_anim__maxStandHeight": 1.0,
     "enter_vehicle__atTime": -1.0,
     "enter_vehicle__isInitDataSaved": false,

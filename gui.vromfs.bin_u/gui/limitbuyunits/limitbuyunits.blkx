@@ -100,6 +100,7 @@
         },
         {
           "size": "pw, fh",
+          "flow": "vertical",
           "div": {
             "id": "units_list_div",
             "flow": "vertical",
@@ -154,6 +155,13 @@
               "position": "absolute",
               "display": "hide"
             }
+          },
+          "textareaNoTab": {
+            "id": "to_many_vehicles_text",
+            "position": "relative",
+            "halign": "center",
+            "display": "hide",
+            "text": "#mainmenu/limitBuyWnd/toManyVehicles"
           }
         }
       ]

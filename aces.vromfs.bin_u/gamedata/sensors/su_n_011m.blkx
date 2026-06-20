@@ -2652,6 +2652,7 @@
       "stateInit": "search",
       "transitions": {
         "scan": {
+          "stateFrom": "search",
           "event": "update",
           "actions": {
             "scan": {},
@@ -5195,7 +5196,8 @@
         "f_16a_block_10_norway",
         "f_16c_block_52_aesa",
         "f_16a_block_72v_china",
-        "f_16am_block_15_mlu_fs_belgium"
+        "f_16am_block_15_mlu_fs_belgium",
+        "f_16am_block_20_mlu_netherlands"
       ]
     },
     {
@@ -5362,6 +5364,7 @@
       "targetType": [
         "jh_7",
         "jh_7a",
+        "jh_7a_killstreak",
         "jh_7a_prototype",
         "jh_7a2"
       ]

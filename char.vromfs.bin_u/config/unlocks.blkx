@@ -12640,6 +12640,2294 @@
       }
     },
     {
+      "id": "f_14d/anytime",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 380,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "f_14d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f_14d/tomcats",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 770,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "f_14d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m_346fa/grey",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 360,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "m_346fa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m_346fa/aerobatic",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 720,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "m_346fa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l_39za_art_thailand/blue",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 220,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "l_39za_art_thailand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "l_39za_art_thailand/teal",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 450,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "l_39za_art_thailand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mig_21_2000_iaf/roma",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "mig_21_2000_iaf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ia_58a_pucara/grey",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 170,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ia_58a_pucara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ia_58a_pucara/25_anniv",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ia_58a_pucara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "j_22m1a/tiger",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 620,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "j_22m1a"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f_16a_block_72v_china/5_tfw_sun",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 800,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "f_16a_block_72v_china"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saab_ajs37_early/f7_43_camo",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "saab_ajs37_early"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fw_189c_0/sand",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 50,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fw_189c_0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fw_189c_0/winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 100,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fw_189c_0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yak_130_early/tricolor",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 300,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "yak_130_early"
+          }
+        ]
+      }
+    },
+    {
+      "id": "yak_130_early/red",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/killedPlayersScore/desc",
+        "mulArcade": 4,
+        "mulRealistic": 5,
+        "mulHardcore": 9,
+        "num": 600,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "yak_130_early"
+          }
+        ]
+      }
+    },
+    {
+      "id": "washington_b1/lsb_night",
+      "type": "skin",
+      "mode": {
+        "type": "amountDamagesZone",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulByModes/amountDamagesZone/desc",
+        "mulArcade": 2,
+        "mulRealistic": 3,
+        "mulHardcore": 3,
+        "num": 61750,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnit",
+            "class": "washington_b1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_challenger_2_megatron_sm/uk_camo_standart_modern_light_stone",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_challenger_2_megatron_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_challenger_2_megatron_sm/uk_camo_winter_olive",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_challenger_2_megatron_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_challenger_2_megatron_sm/uk_camo_standart_modern_bicolor",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1050,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_challenger_2_megatron_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_challenger_2_megatron_sm/uk_camo_winter_modern_bicolor",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1220,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_challenger_2_megatron_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_type_90b_sm/post_era_green_olive",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_type_90b_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_type_90b_sm/jp_camo_post_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_type_90b_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_type_90b_sm/post_era_winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 870,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_type_90b_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_type_90b_sm/jp_camo_post_biege_gray_green_fuji",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1050,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_type_90b_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_type_90b_sm/jp_camo_post_black_gray_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1220,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_type_90b_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_mbt2000_sm/fr_camo_jaune_sahara",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 330,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_mbt2000_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_mbt2000_sm/winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 670,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_mbt2000_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_mbt2000_sm/cn_camo_summer_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1010,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_mbt2000_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_mbt2000_sm/cn_camo_winter_lines",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1180,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_mbt2000_sm"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep3_abrams/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 380,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep3_abrams/modern_snow_temperate",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 770,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep3_abrams/modern_seventh_army",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1160,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep3_abrams/usa_modern_summer_verdant",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep2_abrams_trophy/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 370,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep2_abrams_trophy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep2_abrams_trophy/modern_snow_temperate",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 750,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep2_abrams_trophy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep2_abrams_trophy/modern_seventh_army",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1120,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep2_abrams_trophy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m1a2_sep2_abrams_trophy/usa_modern_summer_verdant",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1310,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m1a2_sep2_abrams_trophy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/us_camo_desert_pink_lines",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 280,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 430,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/us_camo_olive_drab",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 570,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/us_camo_modern_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 710,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/modern_snow_temperate",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 860,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/modern_seventh_army",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_m60a1_rise_mod/usa_modern_summer_verdant",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1150,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_m60a1_rise_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_schutzenpanzer_puma_vjtf_mod/lederbraun",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_schutzenpanzer_puma_vjtf_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_schutzenpanzer_puma_vjtf_mod/winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_schutzenpanzer_puma_vjtf_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_schutzenpanzer_puma_vjtf_mod/ger_camo_modern_desert_threecolor",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1050,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_schutzenpanzer_puma_vjtf_mod"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 100,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/tiger",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 150,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 200,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/blots",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 250,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/lines",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 300,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/hinterhalt_daimler",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_hummel/ger_camo_dunkelgelb_green_braun_lines_mhn",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 400,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_hummel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_t_90m_arena_m/ussr_camo_desert_yellow_brown",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 380,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_t_90m_arena_m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_t_90m_arena_m/modern_winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 770,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_t_90m_arena_m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_t_90m_arena_m/modern_forest",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 960,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_t_90m_arena_m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_t_90m_arena_m/ussr_modern_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1160,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_t_90m_arena_m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_t_90m_arena_m/ussr_camo_arctic",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_t_90m_arena_m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a2_sep3_abrams/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 380,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a2_sep3_abrams/us_camo_modern_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 770,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a2_sep3_abrams/fr_camo_winter_green_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1160,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a2_sep3_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a1_aim_abrams/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 350,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a1_aim_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a1_aim_abrams/us_camo_modern_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 700,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a1_aim_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_m1a1_aim_abrams/fr_camo_winter_green_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1050,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_m1a1_aim_abrams"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_leopard_2ri/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 360,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_leopard_2ri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_leopard_2ri/fr_camo_winter_green_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 720,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_leopard_2ri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_leopard_2ri/id_camo_three_color_green_brown",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1080,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_leopard_2ri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_pgz_88/fr_camo_jaune_sahara",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 230,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_pgz_88"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_pgz_88/winter",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 470,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_pgz_88"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_pgz_88/cn_camo_summer_green",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 710,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_pgz_88"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_pgz_88/cn_camo_winter_lines",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 830,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "cn_pgz_88"
+          }
+        ]
+      }
+    },
+    {
+      "id": "it_palmaria/it_camo_desert_light_yellow",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 210,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "it_palmaria"
+          }
+        ]
+      }
+    },
+    {
+      "id": "it_palmaria/it_camo_winter_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 420,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "it_palmaria"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fr_leopard_1a5be/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 300,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fr_leopard_1a5be"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fr_leopard_1a5be/fr_camo_winter_green_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 600,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fr_leopard_1a5be"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sw_nomads/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 380,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "sw_nomads"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sw_nomads/se_camo_modern_winter_m90",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 770,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "sw_nomads"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sw_nomads/se_camo_modern_deform",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 1160,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "sw_nomads"
+          }
+        ]
+      }
+    },
+    {
+      "id": "il_hunter_afv/us_camo_modern_desert_tan",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 320,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "il_hunter_afv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "il_hunter_afv/fr_camo_winter_green_white",
+      "type": "skin",
+      "mode": {
+        "type": "killedPlayersScore",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/killedPlayersScore/desc",
+        "mulArcade": 5,
+        "mulRealistic": 5,
+        "mulHardcore": 5,
+        "num": 650,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "il_hunter_afv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_battleship_north_carolina_class/usa_camo_navy_blue",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 219000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_battleship_north_carolina_class"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_battleship_north_carolina_class/usa_camo_atlanticocean",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 438000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_battleship_north_carolina_class"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_destroyer_gridley/usa_camo_navy_blue",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 50620,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_destroyer_gridley"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us_destroyer_gridley/usa_camo_blue_spots",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 101000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "us_destroyer_gridley"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_cruiser_admiral_scheer/ger_camo_navy_gray",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 151000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_cruiser_admiral_scheer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_cruiser_admiral_scheer/ger_camo_blackgray_deforming",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 303000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_cruiser_admiral_scheer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_destroyer_lutjens_class_molders/ger_camo_navy_gray",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 126000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_destroyer_lutjens_class_molders"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_destroyer_lutjens_class_molders/ger_camo_browngray_modern",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 253000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_destroyer_lutjens_class_molders"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_kanonenboot_k4_lorelei/ger_camo_navy_gray",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 25310,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_kanonenboot_k4_lorelei"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germ_kanonenboot_k4_lorelei/ger_camo_blackgray_net",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 50620,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "germ_kanonenboot_k4_lorelei"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_cruiser_chervona_ukraina/ussr_camo_navy_purple",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 109000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_cruiser_chervona_ukraina"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_cruiser_chervona_ukraina/ussr_camo_arcticfleet",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 219000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "ussr_cruiser_chervona_ukraina"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_73ft_vosper_type2/uk_camo_navy_brown",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 59060,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_73ft_vosper_type2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_73ft_vosper_type2/uk_camo_bluewhite_geometry",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 118000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_73ft_vosper_type2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_egret_class/uk_camo_navy_lightblue",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 59060,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_egret_class"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk_egret_class/uk_camo_lightbeige_blots",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 118000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "uk_egret_class"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_ujishima_msc/jp_camo_navy_green",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 50620,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_ujishima_msc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_ujishima_msc/jp_camo_green_spots",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 101000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "jp_ujishima_msc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "it_mas_classe429/it_camo_navy_turquoise",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 33750,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "it_mas_classe429"
+          }
+        ]
+      }
+    },
+    {
+      "id": "it_mas_classe429/it_camo_twocolors_spots",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 67500,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "it_mas_classe429"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fr_battleship_richelieu_class_jean_bart/fr_camo_navy_ground",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 219000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fr_battleship_richelieu_class_jean_bart"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fr_battleship_richelieu_class_jean_bart/fr_camo_graygreen_pixelated",
+      "type": "skin",
+      "mode": {
+        "type": "awardDamage",
+        "typeLocID": "conditions/skinUnlockProgress",
+        "locMultDescId": "skinUnlockMulSingle/awardDamage/desc",
+        "mulArcade": 2,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "num": 438000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnit",
+            "class": "fr_battleship_richelieu_class_jean_bart"
+          }
+        ]
+      }
+    },
+    {
       "id": "spitfire_mk5b_float/ep751",
       "type": "skin",
       "mode": {
@@ -17533,7 +19821,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 25310,
+        "num": 33750,
         "condition": [
           {
             "type": "online"
@@ -17555,7 +19843,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 50620,
+        "num": 67500,
         "condition": [
           {
             "type": "online"
@@ -31525,7 +33813,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 50620,
+        "num": 59060,
         "condition": [
           {
             "type": "online"
@@ -31547,7 +33835,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 101000,
+        "num": 118000,
         "condition": [
           {
             "type": "online"
@@ -34649,7 +36937,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 109000,
+        "num": 101000,
         "condition": [
           {
             "type": "online"
@@ -34671,7 +36959,7 @@
         "mulArcade": 2,
         "mulRealistic": 2,
         "mulHardcore": 2,
-        "num": 219000,
+        "num": 202000,
         "condition": [
           {
             "type": "online"
@@ -55250,7 +57538,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 130,
+        "num": 120,
         "condition": [
           {
             "type": "online"
@@ -55272,7 +57560,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 270,
+        "num": 250,
         "condition": [
           {
             "type": "online"
@@ -55294,7 +57582,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 120,
+        "num": 130,
         "condition": [
           {
             "type": "online"
@@ -55316,7 +57604,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 250,
+        "num": 270,
         "condition": [
           {
             "type": "online"
@@ -78846,7 +81134,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 360,
+        "num": 350,
         "condition": [
           {
             "type": "online"
@@ -78868,7 +81156,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 720,
+        "num": 700,
         "condition": [
           {
             "type": "online"
@@ -78890,7 +81178,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 1080,
+        "num": 1050,
         "condition": [
           {
             "type": "online"
@@ -78912,7 +81200,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 1260,
+        "num": 1220,
         "condition": [
           {
             "type": "online"
@@ -79022,7 +81310,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 370,
+        "num": 360,
         "condition": [
           {
             "type": "online"
@@ -79044,7 +81332,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 750,
+        "num": 720,
         "condition": [
           {
             "type": "online"
@@ -79066,7 +81354,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 1120,
+        "num": 1080,
         "condition": [
           {
             "type": "online"
@@ -79088,7 +81376,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 1310,
+        "num": 1260,
         "condition": [
           {
             "type": "online"
@@ -79572,7 +81860,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 100,
+        "num": 120,
         "condition": [
           {
             "type": "online"
@@ -79594,7 +81882,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 150,
+        "num": 180,
         "condition": [
           {
             "type": "online"
@@ -79616,7 +81904,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 200,
+        "num": 250,
         "condition": [
           {
             "type": "online"
@@ -79638,7 +81926,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 240,
+        "num": 300,
         "condition": [
           {
             "type": "online"
@@ -79660,7 +81948,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 280,
+        "num": 350,
         "condition": [
           {
             "type": "online"
@@ -79682,7 +81970,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 320,
+        "num": 400,
         "condition": [
           {
             "type": "online"
@@ -79704,7 +81992,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 360,
+        "num": 450,
         "condition": [
           {
             "type": "online"
@@ -79726,7 +82014,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 400,
+        "num": 500,
         "condition": [
           {
             "type": "online"
@@ -79748,7 +82036,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 440,
+        "num": 550,
         "condition": [
           {
             "type": "online"
@@ -113799,7 +116087,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 62,
+        "num": 50,
         "condition": [
           {
             "type": "online"
@@ -113821,7 +116109,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 120,
+        "num": 100,
         "condition": [
           {
             "type": "online"
@@ -116388,7 +118676,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 50,
+        "num": 62,
         "condition": [
           {
             "type": "online"
@@ -116410,7 +118698,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 100,
+        "num": 120,
         "condition": [
           {
             "type": "online"
@@ -132104,7 +134392,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 220,
+        "num": 250,
         "condition": [
           {
             "type": "online"
@@ -142431,7 +144719,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 330,
+        "num": 350,
         "condition": [
           {
             "type": "online"
@@ -142453,7 +144741,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 670,
+        "num": 700,
         "condition": [
           {
             "type": "online"
@@ -143971,7 +146259,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 320,
+        "num": 330,
         "condition": [
           {
             "type": "online"
@@ -143993,7 +146281,7 @@
         "mulArcade": 5,
         "mulRealistic": 5,
         "mulHardcore": 5,
-        "num": 650,
+        "num": 670,
         "condition": [
           {
             "type": "online"
@@ -194725,7 +197013,10 @@
       "hidden": false,
       "mode": {
         "type": "char_mission_list",
-        "name": "tutorial_tank_basics_arcade",
+        "name": [
+          "tutorial_tank_basics_arcade",
+          "tutorial_tank_basics_arcade_v2"
+        ],
         "condition": {
           "type": "char_mission",
           "mode": "training",
@@ -194777,6 +197068,7 @@
         "name": [
           "tutorialB_fighter",
           "tutorial_tank_basics_arcade",
+          "tutorial_tank_basics_arcade_v2",
           "tutorial_boat_basic_arcade",
           "tutorial_destroyer_basics_arcade"
         ],

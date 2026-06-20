@@ -111,7 +111,7 @@
     },
     "c_dural20": {
       "fuse_dm": {
-        "hp": 132.4
+        "hp": 132.1
       },
       "tail_dm": {
         "genericDamageMult": 0.6,
@@ -196,6 +196,15 @@
         "hp": 19.5
       },
       "cover4_dm": {
+        "hp": 19.5
+      },
+      "cover5_dm": {
+        "hp": 19.5
+      },
+      "cover6_dm": {
+        "hp": 19.5
+      },
+      "cover7_dm": {
         "hp": 19.5
       }
     },
@@ -481,6 +490,15 @@
       },
       {
         "name": "cover4_dm"
+      },
+      {
+        "name": "cover5_dm"
+      },
+      {
+        "name": "cover6_dm"
+      },
+      {
+        "name": "cover7_dm"
       },
       {
         "name": "elevator_dm",
@@ -1938,7 +1956,6 @@
     "gun": "gun_default"
   },
   "cockpit": {
-    "textToShowInCockpit": "msg/textToShowInCockpit",
     "headPos": [
       0.3,
       0.906,
@@ -1950,16 +1967,16 @@
       -0.038
     ],
     "lightPos": [
-      1.263091,
-      1.066042,
-      0.084758
+      0.883,
+      0.425,
+      0.0
     ],
     "lightColor": [
       0.15,
       0.05,
-      0.01
+      0.0
     ],
-    "lightAttenuation": 12.0,
+    "lightRadius": 0.4,
     "devices": {
       "stick_ailerons": [
         -1.0,
@@ -2238,7 +2255,8 @@
         "flash": "flare1",
         "dm": "cannon1_dm",
         "bullets": 200,
-        "spread": 1.0
+        "spread": 1.0,
+        "counterIndex": 3
       },
       {
         "trigger": "cannon",
@@ -2248,7 +2266,8 @@
         "dm": "cannon2_dm",
         "bullets": 200,
         "spread": 1.0,
-        "traceOffset": 1
+        "traceOffset": 1,
+        "counterIndex": 4
       },
       {
         "trigger": "machine gun",
@@ -2257,7 +2276,8 @@
         "flash": "flare3",
         "dm": "mgun1_dm",
         "bullets": 250,
-        "spread": 1.0
+        "spread": 1.0,
+        "counterIndex": 1
       },
       {
         "trigger": "machine gun",
@@ -2267,7 +2287,8 @@
         "dm": "mgun2_dm",
         "bullets": 250,
         "spread": 1.0,
-        "traceOffset": 1
+        "traceOffset": 1,
+        "counterIndex": 2
       },
       {
         "trigger": "machine gun",
@@ -2276,7 +2297,8 @@
         "flash": "flare5",
         "dm": "mgun3_dm",
         "bullets": 250,
-        "spread": 1.0
+        "spread": 1.0,
+        "counterIndex": 5
       },
       {
         "trigger": "machine gun",
@@ -2286,7 +2308,8 @@
         "dm": "mgun4_dm",
         "bullets": 250,
         "spread": 1.0,
-        "traceOffset": 1
+        "traceOffset": 1,
+        "counterIndex": 6
       },
       {
         "trigger": "gunner0",
@@ -2298,7 +2321,85 @@
         "gunnerDm": "gunner1_dm",
         "gunDm": "gun1_dm",
         "partsDP": "gun1_dm",
-        "bullets": 750,
+        "bullets": 375,
+        "turret": {
+          "head": "turret1",
+          "gun": "gun1"
+        },
+        "limits": {
+          "yaw": [
+            -35.0,
+            35.0
+          ],
+          "pitch": [
+            -19.0,
+            35.0
+          ]
+        },
+        "limitsDeadzone": [
+          {
+            "yaw": [
+              -35.0,
+              -20.0
+            ],
+            "pitch": [
+              -15.0,
+              -5.0
+            ]
+          },
+          {
+            "yaw": [
+              -20.0,
+              -15.0
+            ],
+            "pitch": [
+              -8.0,
+              7.0
+            ]
+          },
+          {
+            "yaw": [
+              -15.0,
+              15.0
+            ],
+            "pitch": [
+              -4.0,
+              -2.0
+            ]
+          },
+          {
+            "yaw": [
+              15.0,
+              20.0
+            ],
+            "pitch": [
+              -8.0,
+              7.0
+            ]
+          },
+          {
+            "yaw": [
+              20.0,
+              35.0
+            ],
+            "pitch": [
+              -15.0,
+              -5.0
+            ]
+          }
+        ]
+      },
+      {
+        "trigger": "gunner0",
+        "blk": "gameData/Weapons/gunMG81_turret.blk",
+        "breechInCockpit": true,
+        "emitter": "gun1",
+        "flash": "flare8",
+        "dm": "gunner1_dm",
+        "gunnerDm": "gunner1_dm",
+        "gunDm": "gun1_dm",
+        "partsDP": "gun1_dm",
+        "bullets": 375,
         "turret": {
           "head": "turret1",
           "gun": "gun1"

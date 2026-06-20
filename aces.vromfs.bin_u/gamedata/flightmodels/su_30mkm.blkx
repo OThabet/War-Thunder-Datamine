@@ -3518,6 +3518,9 @@
         "dmPart": "radar_dm"
       },
       {
+        "blk": "gameData/sensors/su_spo_150_esm.blk"
+      },
+      {
         "blk": "gameData/sensors/su_spo-150-30.blk"
       },
       {
@@ -3529,6 +3532,14 @@
       },
       {
         "blk": "gameData/sensors/us_lws_310.blk"
+      }
+    ],
+    "sensorsMode": [
+      {
+        "blockSensorIndex": 1
+      },
+      {
+        "blockSensorIndex": 0
       }
     ]
   },
@@ -3593,7 +3604,10 @@
       },
       {
         "name": "su_30mkm_kh_31pd",
-        "blk": "gameData/FlightModels/weaponPresets/su_30mkm_kh_31pd.blk"
+        "blk": "gameData/FlightModels/weaponPresets/su_30mkm_kh_31pd.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "su_30mkm_kh_31a",
@@ -4914,7 +4928,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -4939,7 +4954,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7
+              "order": 7,
+              "machLimit": 1.5
             }
           },
           {
@@ -4989,8 +5005,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7,
-              "machLimit": 1.5
+              "order": 7
             }
           },
           {
@@ -5015,8 +5030,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 7,
-              "machLimit": 1.5
+              "order": 7
             }
           },
           {
@@ -5789,7 +5803,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5814,7 +5829,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -5864,8 +5880,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5,
-              "machLimit": 1.5
+              "order": 5
             }
           },
           {
@@ -6225,7 +6240,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -6250,7 +6266,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15
+              "order": 15,
+              "machLimit": 1.5
             }
           },
           {
@@ -6275,8 +6292,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15,
-              "machLimit": 1.5
+              "order": 15
             }
           },
           {
@@ -6301,8 +6317,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 15,
-              "machLimit": 1.5
+              "order": 15
             }
           },
           {
@@ -7524,7 +7539,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -7549,7 +7565,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16
+              "order": 16,
+              "machLimit": 1.5
             }
           },
           {
@@ -7574,8 +7591,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16,
-              "machLimit": 1.5
+              "order": 16
             }
           },
           {
@@ -7600,8 +7616,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 16,
-              "machLimit": 1.5
+              "order": 16
             }
           },
           {
@@ -8048,7 +8063,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -8073,7 +8089,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -8123,8 +8140,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6,
-              "machLimit": 1.5
+              "order": 6
             }
           },
           {
@@ -8149,8 +8165,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6,
-              "machLimit": 1.5
+              "order": 6
             }
           },
           {
@@ -8828,7 +8843,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {
@@ -8853,7 +8869,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8
+              "order": 8,
+              "machLimit": 1.5
             }
           },
           {
@@ -8903,8 +8920,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8,
-              "machLimit": 1.5
+              "order": 8
             }
           },
           {
@@ -8929,8 +8945,7 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 8,
-              "machLimit": 1.5
+              "order": 8
             }
           },
           {

@@ -6087,10 +6087,10 @@
   "f_16am_block_15_mlu_belgium": {
     "hasRockets": true
   },
-  "f_16am_block_15_mlu_fs_belgium": {
+  "f_16am_block_20_mlu_norway": {
     "hasRockets": true
   },
-  "f_16am_block_20_mlu_norway": {
+  "f_16am_block_20_mlu_netherlands": {
     "hasRockets": true
   },
   "f_16d_block_40_barak_2": {
@@ -7099,6 +7099,9 @@
     "hasRockets": true
   },
   "jh_7a": {
+    "hasRockets": true
+  },
+  "jh_7a_killstreak": {
     "hasRockets": true
   },
   "jh_7a2": {

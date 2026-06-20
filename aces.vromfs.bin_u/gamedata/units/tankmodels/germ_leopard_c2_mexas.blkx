@@ -607,6 +607,14 @@
         "armorThrough": 15.0,
         "fireParamsPreset": "hydraulic_internal"
       },
+      "turret_hydraulics_01_dm": {
+        "hp": 250.0,
+        "armorThrough": 15.0
+      },
+      "turret_hydraulics_02_dm": {
+        "hp": 250.0,
+        "armorThrough": 15.0
+      },
       "radiator_dm": {
         "hp": 50.0,
         "armorThrough": 5.0
@@ -620,6 +628,10 @@
         "armorThrough": 5.0
       },
       "radio_station_dm": {
+        "hp": 50.0,
+        "armorThrough": 3.0
+      },
+      "auxiliary_power_unit": {
         "hp": 50.0,
         "armorThrough": 3.0
       },
@@ -848,6 +860,16 @@
       "ammo_body_68_dm": {},
       "ammo_body_69_dm": {},
       "ammo_body_70_dm": {},
+      "ammo_body_71_dm": {},
+      "ammo_body_72_dm": {},
+      "ammo_body_73_dm": {},
+      "ammo_body_74_dm": {},
+      "ammo_body_75_dm": {},
+      "ammo_body_76_dm": {},
+      "ammo_body_77_dm": {},
+      "ammo_body_78_dm": {},
+      "ammo_body_79_dm": {},
+      "ammo_body_80_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -2147,7 +2169,7 @@
         "speedYaw": 24.0,
         "speedPitch": 7.0,
         "fireConeAngle": 1.0,
-        "bullets": 55,
+        "bullets": 60,
         "salvoAmount": 100.0,
         "ChainfireTime": 0.0,
         "DelayAfterShoot": 5.0,
@@ -3393,7 +3415,7 @@
               "speedYaw": 24.0,
               "speedPitch": 7.0,
               "fireConeAngle": 1.0,
-              "bullets": 55,
+              "bullets": 60,
               "salvoAmount": 100.0,
               "ChainfireTime": 0.0,
               "DelayAfterShoot": 5.0,

@@ -3324,12 +3324,6 @@
     "part": [
       {
         "name": [
-          "engine_room_01_dm",
-          "engine_room_02_dm",
-          "engine_room_03_dm",
-          "engine_room_04_dm",
-          "engine_room_05_dm",
-          "engine_room_06_dm",
           "transmission_01_dm",
           "transmission_02_dm",
           "transmission_03_dm",
@@ -3340,6 +3334,25 @@
         "onKill": {
           "fire": 0.15,
           "nothing": 0.85,
+          "fHitCritical": false
+        }
+      },
+      {
+        "name": [
+          "engine_room_01_dm",
+          "engine_room_02_dm",
+          "engine_room_03_dm",
+          "engine_room_04_dm",
+          "engine_room_05_dm",
+          "engine_room_06_dm",
+          "engine_room_07_dm",
+          "engine_room_08_dm",
+          "engine_room_09_dm",
+          "engine_room_10_dm"
+        ],
+        "onKill": {
+          "expl": 0.25,
+          "nothing": 0.75,
           "fHitCritical": false
         }
       },
@@ -5080,55 +5093,55 @@
             -180.0,
             -164.0,
             27.0,
-            85.0
+            80.0
           ],
           "lim2": [
             -164.0,
             -160.0,
             14.0,
-            85.0
+            80.0
           ],
           "lim3": [
             -160.0,
             -150.0,
             -2.0,
-            85.0
+            80.0
           ],
           "lim4": [
             -150.0,
             -29.0,
             -10.0,
-            85.0
+            80.0
           ],
           "lim5": [
             -29.0,
             29.0,
             4.0,
-            85.0
+            80.0
           ],
           "lim6": [
             29.0,
             150.0,
             -10.0,
-            85.0
+            80.0
           ],
           "lim7": [
             150.0,
             160.0,
             -2.0,
-            85.0
+            80.0
           ],
           "lim8": [
             160.0,
             164.0,
             14.0,
-            85.0
+            80.0
           ],
           "lim9": [
             164.0,
             180.0,
             27.0,
-            85.0
+            80.0
           ]
         },
         "gunStabilizer": {
@@ -5193,55 +5206,55 @@
             -180.0,
             -164.0,
             27.0,
-            85.0
+            80.0
           ],
           "lim2": [
             -164.0,
             -160.0,
             14.0,
-            85.0
+            80.0
           ],
           "lim3": [
             -160.0,
             -150.0,
             -2.0,
-            85.0
+            80.0
           ],
           "lim4": [
             -150.0,
             -29.0,
             -10.0,
-            85.0
+            80.0
           ],
           "lim5": [
             -29.0,
             29.0,
             4.0,
-            85.0
+            80.0
           ],
           "lim6": [
             29.0,
             150.0,
             -10.0,
-            85.0
+            80.0
           ],
           "lim7": [
             150.0,
             160.0,
             -2.0,
-            85.0
+            80.0
           ],
           "lim8": [
             160.0,
             164.0,
             14.0,
-            85.0
+            80.0
           ],
           "lim9": [
             164.0,
             180.0,
             27.0,
-            85.0
+            80.0
           ]
         },
         "gunStabilizer": {
@@ -8503,6 +8516,18 @@
       "prevModification": "ship_rangefinder"
     }
   },
+  "boilerExplosionFx": {
+    "fx": [
+      {
+        "gearFrom": 0.0,
+        "event": "steam_explosion_big"
+      },
+      {
+        "gearFrom": 3.0,
+        "event": "steam_explosion_big"
+      }
+    ]
+  },
   "shipFuelLeakFxParams": {
     "fuelLeakFxName": "fire_burning_fuel_oil_large",
     "fuelLeakStayFxName": "fire_burning_fuel_oil_large",
@@ -9655,6 +9680,31 @@
         "fx": {
           "name": "smoke_after_hit_small",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "steam_leak",
+        "lifetime": 10.0,
+        "fx": {
+          "name": "explosion_steam_leak"
+        }
+      },
+      {
+        "name": "steam_explosion_medium",
+        "fx": {
+          "name": "explosion_steam_medium"
+        }
+      },
+      {
+        "name": "steam_explosion_big",
+        "fx": {
+          "name": "explosion_steam_big"
+        }
+      },
+      {
+        "name": "steam_explosion_nuclear",
+        "fx": {
+          "name": "explosion_steam_nuclear"
         }
       },
       {

@@ -3237,11 +3237,17 @@
       },
       {
         "name": "j_11b_ld10",
-        "blk": "gameData/FlightModels/weaponPresets/j_11b_ld10.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_11b_ld10.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_11b_cm_102",
-        "blk": "gameData/FlightModels/weaponPresets/j_11b_cm_102.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_11b_cm_102.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_11b_type_250_3",
@@ -4146,7 +4152,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -4171,7 +4178,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
@@ -4196,11 +4204,12 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 5
+              "order": 5,
+              "machLimit": 1.5
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot3",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -4636,7 +4645,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 9
+              "order": 9,
+              "machLimit": 1.5
             }
           },
           {
@@ -4661,7 +4671,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 9
+              "order": 9,
+              "machLimit": 1.5
             }
           },
           {
@@ -4686,11 +4697,12 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 9
+              "order": 9,
+              "machLimit": 1.5
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot4",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -4835,7 +4847,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot5",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -5032,7 +5044,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot6",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -5225,7 +5237,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot7",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -5292,7 +5304,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 10
+              "order": 10,
+              "machLimit": 1.5
             }
           },
           {
@@ -5317,7 +5330,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 10
+              "order": 10,
+              "machLimit": 1.5
             }
           },
           {
@@ -5342,7 +5356,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 10
+              "order": 10,
+              "machLimit": 1.5
             }
           },
           {
@@ -5857,7 +5872,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -5882,7 +5898,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
@@ -5907,11 +5924,12 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 6
+              "order": 6,
+              "machLimit": 1.5
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot8",
             "reqModification": "su_arm",
             "ShowNodes": {

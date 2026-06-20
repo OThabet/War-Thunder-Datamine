@@ -23,7 +23,7 @@
   "hasPointOfInterestMemory": true,
   "laserDesignator": true,
   "mfdCamLantirn": true,
-  "ilsF14": true,
+  "ilsF18": true,
   "rwrIndicator": "AN/ALR-67 MFD",
   "isBwOpticSight": true,
   "needTpsNightVision": true,
@@ -4293,10 +4293,6 @@
         "blk": "gameData/FlightModels/weaponPresets/f_14d_aim_7m.blk"
       },
       {
-        "name": "f_14d_aim_54a",
-        "blk": "gameData/FlightModels/weaponPresets/f_14d_aim_54a.blk"
-      },
-      {
         "name": "f_14d_aim_54c",
         "blk": "gameData/FlightModels/weaponPresets/f_14d_aim_54c.blk"
       },
@@ -4451,7 +4447,7 @@
         "order": 1,
         "WeaponPreset": [
           {
-            "iconType": "missile_type_b_air_to_air",
+            "iconType": "missile_type_f_air_to_air",
             "name": "aim_9m_default",
             "ShowNodes": {
               "node": "lau7_1"
@@ -4478,13 +4474,13 @@
               "emitter": "emtr_flare2",
               "bullets": 160,
               "external": true,
-              "separate": true,
+              "separate": false,
               "mass": 25.0,
               "bulletsCartridge": 1
             }
           },
           {
-            "iconType": "missile_type_b_air_to_air_ltc_pod",
+            "iconType": "missile_type_f_air_to_air_ltc_pod",
             "name": "aim9m_bol",
             "ShowNodes": {
               "node": "lau_138_bol_001"
@@ -4496,7 +4492,7 @@
                 "emitter": "emtr_flare2",
                 "bullets": 160,
                 "external": true,
-                "separate": true,
+                "separate": false,
                 "mass": 25.0,
                 "bulletsCartridge": 1,
                 "reqModification": "uk_ltc_bol"
@@ -4520,7 +4516,7 @@
         "order": 3,
         "WeaponPreset": [
           {
-            "iconType": "missile_type_b_air_to_air",
+            "iconType": "missile_type_f_air_to_air",
             "name": "aim_9m",
             "reqModification": "us_aim_9m",
             "ShowNodes": {
@@ -4554,13 +4550,13 @@
               "emitter": "emtr_flare3",
               "bullets": 160,
               "external": true,
-              "separate": true,
+              "separate": false,
               "mass": 25.0,
               "bulletsCartridge": 1
             }
           },
           {
-            "iconType": "missile_type_b_air_to_air_ltc_pod",
+            "iconType": "missile_type_f_air_to_air_ltc_pod",
             "name": "aim9m_bol",
             "ShowNodes": {
               "node": [
@@ -4575,7 +4571,7 @@
                 "emitter": "emtr_flare3",
                 "bullets": 160,
                 "external": true,
-                "separate": true,
+                "separate": false,
                 "mass": 25.0,
                 "bulletsCartridge": 1,
                 "reqModification": "uk_ltc_bol"
@@ -4608,51 +4604,19 @@
             }
           },
           {
-            "iconType": "missile_air_to_air_ir_large",
-            "name": "aim_54a",
-            "reqModification": "us_aim_54c",
-            "ShowNodes": {
-              "node": [
-                "pylon_phoenix1",
-                "pylon_phoenix2",
-                "pylon_phoenix4"
-              ]
-            },
-            "Weapon": {
-              "trigger": "aam",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-              "emitter": "aim_54_1",
-              "bullets": 1
-            },
-            "BannedWeaponPreset": {
-              "slot": 5,
-              "preset": "aim_7m_x2"
-            }
-          },
-          {
             "iconType": "missile_air_to_air_ir_large_special",
             "name": "aim_54c",
             "reqModification": "us_aim_54c",
             "ShowNodes": {
-              "node": [
-                "pylon_phoenix1",
-                "pylon_phoenix2",
-                "pylon_phoenix4"
-              ]
+              "node": "pylon_phoenix1"
             },
             "Weapon": {
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/us_aim_54c.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus.blk",
               "emitter": "aim_54_1",
               "bullets": 1
-            },
-            "BannedWeaponPreset": {
-              "slot": 5,
-              "preset": "aim_7m_x2"
             }
           },
           {
@@ -4667,6 +4631,7 @@
             "Weapon": {
               "trigger": "rockets",
               "external": true,
+              "separate": true,
               "blk": "gameData/Weapons/containers/ter_lau_10a_ffar_mighty_mouse_left_wing_x2.blk",
               "emitter": "ter_001"
             }
@@ -4756,10 +4721,6 @@
             "BannedWeaponPreset": [
               {
                 "slot": 5,
-                "preset": "aim_54a_x2"
-              },
-              {
-                "slot": 5,
                 "preset": "aim_54c_x2"
               },
               {
@@ -4801,70 +4762,19 @@
             ]
           },
           {
-            "iconType": "missile_air_to_air_special_ir_group",
-            "name": "aim_54a_x2_fuse",
-            "reqModification": "us_aim_54c",
-            "ShowNodes": {
-              "node": [
-                "pylon_phoenix2",
-                "pylon_phoenix3",
-                "pylon_phoenix4",
-                "pylon_phoenix5"
-              ]
-            },
-            "Weapon": [
-              {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-                "emitter": "aim_54_3",
-                "bullets": 1,
-                "external": true,
-                "separate": true
-              },
-              {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-                "emitter": "aim_54_5",
-                "bullets": 1,
-                "external": true,
-                "separate": true
-              }
-            ],
-            "BannedWeaponPreset": [
-              {
-                "slot": 5,
-                "preset": "us_mk84_x2"
-              },
-              {
-                "slot": 5,
-                "preset": "us_gbu_10_x2"
-              },
-              {
-                "slot": 5,
-                "preset": "us_gbu_24"
-              },
-              {
-                "slot": 5,
-                "preset": "aim_7m_x2"
-              }
-            ]
-          },
-          {
             "iconType": "missile_air_to_air_large_special_group",
             "name": "aim_54c_x2_fuse",
             "reqModification": "us_aim_54c",
             "ShowNodes": {
               "node": [
-                "pylon_phoenix2",
                 "pylon_phoenix3",
-                "pylon_phoenix4",
                 "pylon_phoenix5"
               ]
             },
             "Weapon": [
               {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54c.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus.blk",
                 "emitter": "aim_54_3",
                 "bullets": 1,
                 "external": true,
@@ -4872,7 +4782,7 @@
               },
               {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54c.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus.blk",
                 "emitter": "aim_54_5",
                 "bullets": 1,
                 "external": true,
@@ -5384,35 +5294,6 @@
             ]
           },
           {
-            "iconType": "missile_air_to_air_special_ir_group",
-            "name": "aim_54a_x2",
-            "reqModification": "us_aim_54c",
-            "ShowNodes": {
-              "node": [
-                "pylon_phoenix2",
-                "pylon_phoenix4"
-              ]
-            },
-            "Weapon": [
-              {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-                "emitter": "aim_54_2",
-                "bullets": 1,
-                "external": true,
-                "separate": true
-              },
-              {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-                "emitter": "aim_54_4",
-                "bullets": 1,
-                "external": true,
-                "separate": true
-              }
-            ]
-          },
-          {
             "iconType": "missile_air_to_air_large_special_group",
             "name": "aim_54c_x2",
             "ShowNodes": {
@@ -5424,7 +5305,7 @@
             "Weapon": [
               {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_default.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus_default.blk",
                 "emitter": "aim_54_2",
                 "bullets": 1,
                 "external": true,
@@ -5432,7 +5313,7 @@
               },
               {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_default.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus_default.blk",
                 "emitter": "aim_54_4",
                 "bullets": 1,
                 "external": true,
@@ -5990,7 +5871,7 @@
         "order": 4,
         "WeaponPreset": [
           {
-            "iconType": "missile_type_b_air_to_air",
+            "iconType": "missile_type_f_air_to_air",
             "name": "aim_9m",
             "reqModification": "us_aim_9m",
             "ShowNodes": {
@@ -6024,13 +5905,13 @@
               "emitter": "emtr_flare4",
               "bullets": 160,
               "external": true,
-              "separate": true,
+              "separate": false,
               "mass": 25.0,
               "bulletsCartridge": 1
             }
           },
           {
-            "iconType": "missile_type_b_air_to_air_ltc_pod",
+            "iconType": "missile_type_f_air_to_air_ltc_pod",
             "name": "aim9m_bol",
             "ShowNodes": {
               "node": [
@@ -6045,7 +5926,7 @@
                 "emitter": "emtr_flare4",
                 "bullets": 160,
                 "external": true,
-                "separate": true,
+                "separate": false,
                 "mass": 25.0,
                 "bulletsCartridge": 1,
                 "reqModification": "uk_ltc_bol"
@@ -6078,51 +5959,19 @@
             }
           },
           {
-            "iconType": "missile_air_to_air_ir_large",
-            "name": "aim_54a",
-            "reqModification": "us_aim_54c",
-            "ShowNodes": {
-              "node": [
-                "pylon_phoenix2",
-                "pylon_phoenix4",
-                "pylon_phoenix6"
-              ]
-            },
-            "Weapon": {
-              "trigger": "aam",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/us_aim_54a.blk",
-              "emitter": "aim_54_6",
-              "bullets": 1
-            },
-            "BannedWeaponPreset": {
-              "slot": 5,
-              "preset": "aim_7m_x2"
-            }
-          },
-          {
             "iconType": "missile_air_to_air_ir_large_special",
             "name": "aim_54c",
             "reqModification": "us_aim_54c",
             "ShowNodes": {
-              "node": [
-                "pylon_phoenix2",
-                "pylon_phoenix4",
-                "pylon_phoenix6"
-              ]
+              "node": "pylon_phoenix6"
             },
             "Weapon": {
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/us_aim_54c.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim_54c_plus.blk",
               "emitter": "aim_54_6",
               "bullets": 1
-            },
-            "BannedWeaponPreset": {
-              "slot": 5,
-              "preset": "aim_7m_x2"
             }
           },
           {
@@ -6137,6 +5986,7 @@
             "Weapon": {
               "trigger": "rockets",
               "external": true,
+              "separate": true,
               "blk": "gameData/Weapons/containers/ter_lau_10a_ffar_mighty_mouse_right_wing_x2.blk",
               "emitter": "ter_002"
             }
@@ -6185,7 +6035,7 @@
         "order": 2,
         "WeaponPreset": [
           {
-            "iconType": "missile_type_b_air_to_air",
+            "iconType": "missile_type_f_air_to_air",
             "name": "aim_9m_default",
             "ShowNodes": {
               "node": "lau7_4"
@@ -6212,13 +6062,13 @@
               "emitter": "emtr_flare5",
               "bullets": 160,
               "external": true,
-              "separate": true,
+              "separate": false,
               "mass": 25.0,
               "bulletsCartridge": 1
             }
           },
           {
-            "iconType": "missile_type_b_air_to_air_ltc_pod",
+            "iconType": "missile_type_f_air_to_air_ltc_pod",
             "name": "aim9m_bol",
             "ShowNodes": {
               "node": "lau_138_bol_004"
@@ -6230,7 +6080,7 @@
                 "emitter": "emtr_flare5",
                 "bullets": 160,
                 "external": true,
-                "separate": true,
+                "separate": false,
                 "mass": 25.0,
                 "bulletsCartridge": 1,
                 "reqModification": "uk_ltc_bol"

@@ -2895,7 +2895,18 @@
         "dmPart": "radar_dm"
       },
       {
+        "blk": "gameData/sensors/su_spo_150_esm.blk"
+      },
+      {
         "blk": "gameData/sensors/su_spo-150.blk"
+      }
+    ],
+    "sensorsMode": [
+      {
+        "blockSensorIndex": 1
+      },
+      {
+        "blockSensorIndex": 0
       }
     ]
   },
@@ -2957,7 +2968,10 @@
       },
       {
         "name": "su_27sm_kh_31pd",
-        "blk": "gameData/FlightModels/weaponPresets/su_27sm_kh_31pd.blk"
+        "blk": "gameData/FlightModels/weaponPresets/su_27sm_kh_31pd.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "su_27sm_kh_31ad",
@@ -3746,7 +3760,8 @@
               "emitter": "aku_58_kh_29l_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -3770,7 +3785,8 @@
               "emitter": "aku_58_kh_29l_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -4479,7 +4495,8 @@
               "emitter": "aku_58_kh_29l_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -4503,7 +4520,8 @@
               "emitter": "aku_58_kh_29l_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -5447,7 +5465,8 @@
               "emitter": "aku_58_kh_29l_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -5471,7 +5490,8 @@
               "emitter": "aku_58_kh_29l_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -6147,7 +6167,8 @@
               "emitter": "aku_58_kh_29l_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {
@@ -6171,7 +6192,8 @@
               "emitter": "aku_58_kh_29l_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5
             }
           },
           {

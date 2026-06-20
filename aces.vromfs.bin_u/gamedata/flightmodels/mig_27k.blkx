@@ -3350,6 +3350,22 @@
         "node": "optic1_gun"
       },
       {
+        "blk": "gameData/sensors/su_kh_27ps_viuga_esm.blk",
+        "external": true
+      },
+      {
+        "blk": "gameData/sensors/su_kh_31p_111_esm.blk",
+        "external": true
+      },
+      {
+        "blk": "gameData/sensors/su_kh_31p_112_esm.blk",
+        "external": true
+      },
+      {
+        "blk": "gameData/sensors/su_kh_31p_113_esm.blk",
+        "external": true
+      },
+      {
         "blk": "gameData/sensors/su_spo-15lm.blk"
       },
       {
@@ -3991,7 +4007,29 @@
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "delta_ng"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "l_066_viuga_slot5"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_27ps_slot7"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_111_slot7"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_112_slot7"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_113_slot7"
+              }
+            ]
           },
           {
             "iconType": "missile_air_to_uni_middle",
@@ -4085,12 +4123,23 @@
               "emitter": "apu_68_kh25_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "externalSensorIndex": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 7,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_s",
@@ -4114,12 +4163,24 @@
               "emitter": "aku_58_kh_29l_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 2
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 7,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_b",
@@ -4143,12 +4204,24 @@
               "emitter": "aku_58_kh_29l_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 3
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 7,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_f",
@@ -4172,12 +4245,24 @@
               "emitter": "aku_58_kh_29l_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 4
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 7,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "doublebarreled_box",
@@ -4689,7 +4774,41 @@
               "blk": "gameData/Weapons/equipment/su_delta_ng_station.blk",
               "emitter": "ub_32a_24_3",
               "bullets": 1
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 1,
+                "preset": "kh_27ps_slot1"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_27ps_slot7"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_111_slot1"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_111_slot7"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_112_slot1"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_112_slot7"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_113_slot1"
+              },
+              {
+                "slot": 7,
+                "preset": "kh_31p_113_slot7"
+              }
+            ]
           },
           {
             "iconType": "rls_type_s",
@@ -4699,7 +4818,17 @@
               "blk": "gameData/Weapons/equipment/su_l_066_viuga.blk",
               "emitter": "su_vyuga_27_container",
               "bullets": 1
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 1,
+                "preset": "x23m"
+              },
+              {
+                "slot": 7,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "nar_large",
@@ -5333,7 +5462,29 @@
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "delta_ng"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "l_066_viuga_slot5"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_27ps_slot1"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_111_slot1"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_112_slot1"
+              },
+              {
+                "slot": 1,
+                "preset": "kh_31p_113_slot1"
+              }
+            ]
           },
           {
             "iconType": "missile_air_to_uni_middle",
@@ -5427,12 +5578,23 @@
               "emitter": "apu_68_kh25_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "externalSensorIndex": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 1,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_s",
@@ -5456,12 +5618,24 @@
               "emitter": "aku_58_kh_29l_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 2
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 1,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_b",
@@ -5485,12 +5659,24 @@
               "emitter": "aku_58_kh_29l_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 3
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 1,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "arm_kh31_type_f",
@@ -5514,12 +5700,24 @@
               "emitter": "aku_58_kh_29l_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.5,
+              "externalSensorIndex": 4
             },
             "DependentWeaponPreset": {
               "slot": 5,
               "preset": "l_066_viuga_slot5"
-            }
+            },
+            "BannedWeaponPreset": [
+              {
+                "slot": 5,
+                "preset": "delta_ng"
+              },
+              {
+                "slot": 1,
+                "preset": "x23m"
+              }
+            ]
           },
           {
             "iconType": "doublebarreled_box",

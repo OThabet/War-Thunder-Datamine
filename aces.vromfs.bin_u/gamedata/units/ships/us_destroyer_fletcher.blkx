@@ -29,6 +29,7 @@
   "explosionFx": "explosion_ship_medium",
   "decorCutProps": "destroyer",
   "propSplashEffects": "propSplashEffects_underwater",
+  "boilerOverpressureStartFx": "steam_leak",
   "deadCoverCountToDelayedSinking": 3,
   "delayedSinkingBreachesFreq": 4.0,
   "delayedSinkingBreachesSize": [
@@ -2389,13 +2390,9 @@
           "engine_room_06_dm"
         ],
         "onKill": {
-          "expl": 1.0,
-          "fHitCritical": false,
-          "action": {
-            "type": "fxEvent",
-            "probability": 1.0,
-            "fxEventName": "steam_leak"
-          }
+          "expl": 0.25,
+          "nothing": 0.75,
+          "fHitCritical": false
         }
       },
       {
@@ -3445,7 +3442,7 @@
           ],
           "pitch": [
             -15.0,
-            88.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -3453,19 +3450,19 @@
             -180.0,
             -162.0,
             20.0,
-            88.0
+            85.0
           ],
           "lim2": [
             -162.0,
             162.0,
             -15.0,
-            88.0
+            85.0
           ],
           "lim3": [
             162.0,
             180.0,
             20.0,
-            88.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -3519,7 +3516,7 @@
           ],
           "pitch": [
             -15.0,
-            88.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -3527,19 +3524,19 @@
             -180.0,
             -162.0,
             20.0,
-            88.0
+            85.0
           ],
           "lim2": [
             -162.0,
             162.0,
             -15.0,
-            88.0
+            85.0
           ],
           "lim3": [
             162.0,
             180.0,
             20.0,
-            88.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -3594,7 +3591,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -3605,7 +3602,7 @@
           ],
           "pitch": [
             -4.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -3680,7 +3677,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -3691,7 +3688,7 @@
           ],
           "pitch": [
             -4.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -3766,7 +3763,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -3777,7 +3774,7 @@
           ],
           "pitch": [
             -8.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -3852,7 +3849,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -3863,7 +3860,7 @@
           ],
           "pitch": [
             -8.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -3938,7 +3935,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -3949,7 +3946,7 @@
           ],
           "pitch": [
             -8.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -4024,7 +4021,7 @@
             ],
             "verOriginLimits": [
               0.0,
-              50.0
+              60.0
             ]
           }
         },
@@ -4035,7 +4032,7 @@
           ],
           "pitch": [
             -8.0,
-            50.0
+            60.0
           ]
         },
         "limitsTable": {
@@ -4202,7 +4199,7 @@
       },
       {
         "gearFrom": 3.0,
-        "event": "steam_explosion_big"
+        "event": "steam_explosion_medium"
       }
     ]
   },
@@ -5340,7 +5337,7 @@
       },
       {
         "name": "steam_leak",
-        "lifetime": 5.0,
+        "lifetime": 10.0,
         "fx": {
           "name": "explosion_steam_leak"
         }

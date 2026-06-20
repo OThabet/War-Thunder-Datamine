@@ -40652,6 +40652,24 @@
       "dmPreset": "bush_props"
     },
     {
+      "name": "bush_pinus_pinaster_h2_w2_c",
+      "destructionImpulse": 3000.0,
+      "destrCollisionHeightScale": 1.0,
+      "fx": "destr_bush_green_h01",
+      "fxScale": 1.0,
+      "bushBehaviour": true,
+      "dmPreset": "bush_props"
+    },
+    {
+      "name": "bush_pinus_pinaster_h2_w2_d",
+      "destructionImpulse": 3000.0,
+      "destrCollisionHeightScale": 1.0,
+      "fx": "destr_bush_green_h01",
+      "fxScale": 1.0,
+      "bushBehaviour": true,
+      "dmPreset": "bush_props"
+    },
+    {
       "name": "bush_pinus_pinaster_h2_w2_a_snow",
       "destructionImpulse": 3000.0,
       "destrCollisionHeightScale": 1.0,
@@ -64609,7 +64627,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_a_destr_phobj",
+      "physRes": "inf_metal_barrel_a_destr_phobj",
       "isObstacle": false
     },
     "inf_metal_barrel_b": {
@@ -64621,7 +64639,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_b_destr_phobj",
+      "physRes": "inf_metal_barrel_b_destr_phobj",
       "isObstacle": false
     },
     "inf_metal_barrel_c": {
@@ -64633,7 +64651,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_c_destr_phobj",
+      "physRes": "inf_metal_barrel_c_destr_phobj",
       "isObstacle": false
     },
     "inf_metal_barrel_d": {
@@ -64645,7 +64663,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_d_destr_phobj"
+      "physRes": "inf_metal_barrel_d_destr_phobj"
     },
     "inf_metal_barrel_a_damaged_a": {
       "hp": 40.0,
@@ -64656,7 +64674,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_a_destr_phobj"
+      "physRes": "inf_metal_barrel_a_damaged_a_destr_phobj"
     },
     "inf_metal_barrel_b_damaged_a": {
       "hp": 40.0,
@@ -64667,7 +64685,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_b_destr_phobj"
+      "physRes": "inf_metal_barrel_b_damaged_a_destr_phobj"
     },
     "inf_metal_barrel_c_damaged_a": {
       "hp": 40.0,
@@ -64678,7 +64696,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_c_destr_phobj"
+      "physRes": "inf_metal_barrel_c_damaged_a_destr_phobj"
     },
     "inf_metal_barrel_d_damaged_a": {
       "hp": 40.0,
@@ -64689,7 +64707,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrel_d_destr_phobj"
+      "physRes": "inf_metal_barrel_d_damaged_a_destr_phobj"
     },
     "inf_metal_barrels_pile_a": {
       "hp": 100.0,
@@ -64701,7 +64719,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrels_pile_a_destr_phobj"
+      "physRes": "inf_metal_barrels_pile_a_destr_phobj"
     },
     "inf_metal_barrels_pile_b": {
       "hp": 100.0,
@@ -64713,7 +64731,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrels_pile_b_destr_phobj"
+      "physRes": "inf_metal_barrels_pile_b_destr_phobj"
     },
     "inf_metal_barrels_pile_c": {
       "hp": 100.0,
@@ -64725,7 +64743,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrels_pile_c_destr_phobj"
+      "physRes": "inf_metal_barrels_pile_c_destr_phobj"
     },
     "inf_metal_barrels_pile_d": {
       "hp": 100.0,
@@ -64737,7 +64755,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrels_pile_d_destr_phobj"
+      "physRes": "inf_metal_barrels_pile_d_destr_phobj"
     },
     "inf_metal_barrels_pile_e": {
       "hp": 100.0,
@@ -64749,7 +64767,7 @@
       "dmPreset": "infantry_default_preset",
       "fx": "destr_metal_med",
       "fxScale": 1.0,
-      "physRes": "metal_barrels_pile_e_destr_phobj"
+      "physRes": "inf_metal_barrels_pile_e_destr_phobj"
     },
     "normandy_decor_hatch_a": {
       "hp": 20.0,
@@ -105595,14 +105613,14 @@
       "isObstacle": false
     },
     "afr_command_office_window_metal_150_150_cm_a": {
-      "hp": 8.0,
+      "hp": 3.0,
       "destructionImpulse": 3000.0,
       "dmPreset": "infantry_default_preset",
       "fx": "destr_basic_small",
       "fxScale": 1.0
     },
     "afr_command_office_window_metal_150_150_cm_a_a": {
-      "hp": 8.0,
+      "hp": 3.0,
       "destructionImpulse": 8.0,
       "dmPreset": "infantry_default_preset",
       "fx": "destr_glass",
@@ -150683,7 +150701,7 @@
       "physRes": "african_window_straw_1500x1500_a_destr_phobj"
     },
     "african_window_wood_1000x1500_a_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150692,7 +150710,7 @@
       "physRes": "african_window_wood_1000x1500_a_l_destr_phobj"
     },
     "african_window_wood_1000x1500_b_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150701,7 +150719,7 @@
       "physRes": "african_window_wood_1000x1500_b_l_destr_phobj"
     },
     "african_window_wood_1000x1500_b_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150710,7 +150728,7 @@
       "physRes": "african_window_wood_1000x1500_b_r_destr_phobj"
     },
     "african_window_wood_1000x1500_c_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150719,7 +150737,7 @@
       "physRes": "african_window_wood_1000x1500_c_l_destr_phobj"
     },
     "african_window_wood_1000x1500_c_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150728,7 +150746,7 @@
       "physRes": "african_window_wood_1000x1500_c_r_destr_phobj"
     },
     "african_window_wood_1000x1500_e_frame": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 400.0,
       "material": "window_wood",
       "dmPreset": "infantry_default_preset",
@@ -150737,7 +150755,7 @@
       "physRes": "african_window_wood_1000x1500_e_frame_destr_phobj"
     },
     "african_window_wood_1000x800_a_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150746,7 +150764,7 @@
       "physRes": "african_window_wood_1000x800_a_r_destr_phobj"
     },
     "african_window_wood_1000x800_b_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150755,7 +150773,7 @@
       "physRes": "african_window_wood_1000x800_b_l_destr_phobj"
     },
     "african_window_wood_1000x800_b_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150764,7 +150782,7 @@
       "physRes": "african_window_wood_1000x800_b_r_destr_phobj"
     },
     "african_window_wood_1000x800_c_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150773,7 +150791,7 @@
       "physRes": "african_window_wood_1000x800_c_l_destr_phobj"
     },
     "african_window_wood_1000x800_c_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150782,7 +150800,7 @@
       "physRes": "african_window_wood_1000x800_c_r_destr_phobj"
     },
     "african_window_wood_1000x800_d_frame": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 400.0,
       "material": "window_wood",
       "dmPreset": "infantry_default_preset",
@@ -150791,7 +150809,7 @@
       "physRes": "african_window_wood_1000x800_d_frame_destr_phobj"
     },
     "african_window_wood_1500x1500_a_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150800,7 +150818,7 @@
       "physRes": "african_window_wood_1500x1500_a_l_destr_phobj"
     },
     "african_window_wood_1500x1500_b_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150809,7 +150827,7 @@
       "physRes": "african_window_wood_1500x1500_b_l_destr_phobj"
     },
     "african_window_wood_1500x1500_b_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150818,7 +150836,7 @@
       "physRes": "african_window_wood_1500x1500_b_r_destr_phobj"
     },
     "african_window_wood_1500x1500_c_l": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150827,7 +150845,7 @@
       "physRes": "african_window_wood_1500x1500_c_l_destr_phobj"
     },
     "african_window_wood_1500x1500_c_r": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 4000.0,
       "material": "wood",
       "dmPreset": "infantry_default_preset",
@@ -150836,7 +150854,7 @@
       "physRes": "african_window_wood_1500x1500_c_r_destr_phobj"
     },
     "african_window_wood_1500x1500_d_frame": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 400.0,
       "material": "window_wood",
       "dmPreset": "infantry_default_preset",
@@ -150845,7 +150863,7 @@
       "physRes": "african_window_wood_1500x1500_d_frame_destr_phobj"
     },
     "african_window_wood_2500x2250_a_frame": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 400.0,
       "material": "window_wood",
       "dmPreset": "infantry_default_preset",
@@ -150854,7 +150872,7 @@
       "physRes": "african_window_wood_2500x2250_a_frame_destr_phobj"
     },
     "african_window_wood_2500x2250_b_frame": {
-      "hp": 10.0,
+      "hp": 3.0,
       "destructionImpulse": 400.0,
       "material": "window_wood",
       "dmPreset": "infantry_default_preset",
@@ -153592,6 +153610,22 @@
       "fx": "destr_basic_small",
       "fxScale": 1.0,
       "physRes": "appliances_wire_broken_destr_phobj"
+    },
+    "internet_antenna_a": {
+      "hp": 20.0,
+      "destructionImpulse": 8000.0,
+      "dmPreset": "infantry_default_preset",
+      "fx": "destr_basic_small",
+      "fxScale": 1.0,
+      "physRes": "internet_antenna_a_destr_phobj"
+    },
+    "internet_receiver_a": {
+      "hp": 20.0,
+      "destructionImpulse": 8000.0,
+      "dmPreset": "infantry_default_preset",
+      "fx": "destr_basic_small",
+      "fxScale": 1.0,
+      "physRes": "internet_receiver_a_destr_phobj"
     },
     "tire_pile_b": {
       "hp": 50.0,
@@ -161579,10 +161613,10 @@
       "isParent": true
     },
     "opel_blitz_kfz_305_snow": {
-      "physRes": "opel_blitz_kfz_305_destr_phobj",
+      "physRes": "opel_blitz_kfz_305_snow_destr_phobj",
       "hp": 20.0,
       "dmPreset": "metal_light_explosive_props",
-      "fx": "ad_car_wreck_small",
+      "fx": "ad_dust_snow",
       "fxScale": 1.0,
       "material": "metal",
       "isParent": true
@@ -161592,6 +161626,15 @@
       "hp": 20.0,
       "dmPreset": "metal_light_explosive_props",
       "fx": "ad_car_wreck_small",
+      "fxScale": 1.0,
+      "material": "metal",
+      "isParent": true
+    },
+    "opel_blitz_kfz_305_abandoned_snow": {
+      "physRes": "opel_blitz_kfz_305_abandoned_snow_destr_phobj",
+      "hp": 20.0,
+      "dmPreset": "metal_light_explosive_props",
+      "fx": "ad_dust_snow",
       "fxScale": 1.0,
       "material": "metal",
       "isParent": true
@@ -166783,6 +166826,7 @@
       "material": "concrete"
     },
     "korea_city_cottage_a_dp_01": {
+      "nextRes": "korea_city_cottage_a_dp_01_dmg",
       "hp": 100.0,
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
@@ -166793,7 +166837,7 @@
       "material": "concrete"
     },
     "korea_city_cottage_a_dp_02": {
-      "nextRes": "korea_city_cottage_a_dmg",
+      "nextRes": "korea_city_cottage_a_dp_02_dmg",
       "hp": 100.0,
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
@@ -166827,8 +166871,8 @@
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
       "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
-      "apexDestructible": false,
+      "fxScale": 1.0,
+      "apexDestructible": true,
       "isParent": true,
       "material": "concrete"
     },
@@ -166838,8 +166882,8 @@
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
       "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
-      "apexDestructible": false,
+      "fxScale": 1.0,
+      "apexDestructible": true,
       "isParent": true,
       "material": "concrete"
     },
@@ -166848,8 +166892,8 @@
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
       "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
-      "apexDestructible": false,
+      "fxScale": 1.0,
+      "apexDestructible": true,
       "material": "concrete"
     },
     "korea_city_cottage_b_roof_dp_02": {
@@ -166857,28 +166901,28 @@
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
       "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
-      "apexDestructible": false,
+      "fxScale": 1.0,
+      "apexDestructible": true,
       "material": "concrete"
     },
     "korea_city_cottage_c_dp_01": {
-      "nextRes": "korea_city_cottage_c_dp_02_dmg",
-      "hp": 100.0,
-      "impulseThreshold": 1.5,
-      "destructionImpulse": 20000.0,
-      "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
-      "apexDestructible": true,
-      "isParent": true,
-      "material": "concrete"
-    },
-    "korea_city_cottage_c_dp_02": {
       "nextRes": "korea_city_cottage_c_dp_01_dmg",
       "hp": 100.0,
       "impulseThreshold": 1.5,
       "destructionImpulse": 20000.0,
       "fx": "dust_construction_collapse_local_big",
-      "fxScale": 1.1,
+      "fxScale": 1.0,
+      "apexDestructible": true,
+      "isParent": true,
+      "material": "concrete"
+    },
+    "korea_city_cottage_c_dp_02": {
+      "nextRes": "korea_city_cottage_c_dp_02_dmg",
+      "hp": 100.0,
+      "impulseThreshold": 1.5,
+      "destructionImpulse": 20000.0,
+      "fx": "dust_construction_collapse_local_big",
+      "fxScale": 1.0,
       "apexDestructible": true,
       "isParent": true,
       "material": "concrete"

@@ -34,7 +34,7 @@
   "canPatchEnginesForEnemies": true,
   "hitSoundCooldownTime": 0.1,
   "heroGunMaxTimeForAmbient": 10.0,
-  "maxDistForGunSoundPlaying": 100.0,
+  "maxDistForGunSoundPlaying": 300.0,
   "controlStickLimits": [
     500.0,
     0.1
@@ -323,6 +323,16 @@
           "optional": true
         },
         "event.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "event_tgw": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "event_tgw.assets": {
           "async": true,
           "preload": false,
           "optional": true

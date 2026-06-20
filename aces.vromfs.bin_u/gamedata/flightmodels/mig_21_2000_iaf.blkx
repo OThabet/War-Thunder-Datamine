@@ -1,6 +1,6 @@
 {
   "model": "mig_21_2000_iaf",
-  "fmFile": "fm/mig-21_bis.blk",
+  "fmFile": "fm/mig_21_2000_iaf.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCIPForBombs": true,
@@ -41,6 +41,7 @@
     -50.0,
     50.0
   ],
+  "mfdCamLitening2": true,
   "jetEnginePowerFullScale": true,
   "ilsHasRadarHud": true,
   "gearSinkRangeLR": 0.157,
@@ -65,9 +66,6 @@
   "fightAiBehaviour": "fighter",
   "autopilotImpl": "FBW",
   "paratrooper": "su_k_36_ejection_para",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress.ddsx",
-  "customTooltipImage": "!#ui/aircrafts/image_in_progress.avif",
   "DamageParts": {
     "armor10": {
       "armor2_dm": {
@@ -2415,8 +2413,8 @@
       0.78,
       0.0
     ],
-    "hmdScreenBlockRad": 0.06,
     "hmdEnabledByDefault": true,
+    "hmdScreenBlockRad": 0.03,
     "mirror": true,
     "mirrorPos": [
       -3.855,
@@ -2783,9 +2781,33 @@
             0.5,
             0.5
           ],
-          "page": {
-            "type": "map"
-          }
+          "cameraFromTargetingPod": true,
+          "page": [
+            {
+              "type": "thermal",
+              "turretIdx": 0
+            },
+            {
+              "type": "target_tracking",
+              "turretIdx": 0
+            },
+            {
+              "type": "rwr",
+              "scale": 1.0,
+              "hideBackground": true,
+              "hidePlaneSymbol": true
+            },
+            {
+              "type": "radar",
+              "scale": 1.1,
+              "color": [
+                27,
+                115,
+                255,
+                255
+              ]
+            }
+          ]
         },
         {
           "textureArea": [

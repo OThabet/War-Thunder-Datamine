@@ -1037,13 +1037,9 @@
           "engine_room_06_dm"
         ],
         "onKill": {
-          "expl": 1.0,
-          "fHitCritical": false,
-          "action": {
-            "type": "fxEvent",
-            "probability": 1.0,
-            "fxEventName": "steam_leak"
-          }
+          "expl": 0.25,
+          "nothing": 0.75,
+          "fHitCritical": false
         }
       },
       {
@@ -2046,7 +2042,7 @@
           ],
           "pitch": [
             -9.0,
-            87.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2054,25 +2050,25 @@
             -160.0,
             -7.0,
             -9.0,
-            87.0
+            85.0
           ],
           "lim2": [
             -7.0,
             2.0,
             -3.0,
-            87.0
+            85.0
           ],
           "lim3": [
             2.0,
             29.0,
             5.0,
-            87.0
+            85.0
           ],
           "lim4": [
             29.0,
             90.0,
             37.0,
-            87.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2136,7 +2132,7 @@
           ],
           "pitch": [
             -9.0,
-            87.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2144,25 +2140,25 @@
             -90.0,
             -29.0,
             37.0,
-            87.0
+            85.0
           ],
           "lim2": [
             -29.0,
             -2.0,
             5.0,
-            87.0
+            85.0
           ],
           "lim3": [
             -2.0,
             7.0,
             -3.0,
-            87.0
+            85.0
           ],
           "lim4": [
             7.0,
             160.0,
             -9.0,
-            87.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2226,7 +2222,7 @@
           ],
           "pitch": [
             -9.0,
-            87.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2234,31 +2230,31 @@
             -180.0,
             -87.0,
             8.0,
-            87.0
+            85.0
           ],
           "lim2": [
             -87.0,
             82.0,
             -9.0,
-            87.0
+            85.0
           ],
           "lim3": [
             82.0,
             98.0,
             28.0,
-            87.0
+            85.0
           ],
           "lim4": [
             98.0,
             153.0,
             65.0,
-            87.0
+            85.0
           ],
           "lim5": [
             153.0,
             180.0,
             14.0,
-            87.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2322,7 +2318,7 @@
           ],
           "pitch": [
             -9.0,
-            87.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2330,31 +2326,31 @@
             -180.0,
             -153.0,
             14.0,
-            87.0
+            85.0
           ],
           "lim2": [
             -153.0,
             -98.0,
             65.0,
-            87.0
+            85.0
           ],
           "lim3": [
             -98.0,
             -82.0,
             28.0,
-            87.0
+            85.0
           ],
           "lim4": [
             -82.0,
             87.0,
             -9.0,
-            87.0
+            85.0
           ],
           "lim5": [
             87.0,
             180.0,
             8.0,
-            87.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2374,6 +2370,18 @@
       "name": "ussr_destroyer_rckt_pr956_default",
       "blk": "gameData/units/ships/weaponPresets/ussr_destroyer_rckt_pr956_default.blk"
     }
+  },
+  "boilerExplosionFx": {
+    "fx": [
+      {
+        "gearFrom": 0.0,
+        "event": "steam_explosion_big"
+      },
+      {
+        "gearFrom": 3.0,
+        "event": "steam_explosion_big"
+      }
+    ]
   },
   "shipFuelLeakFxParams": {
     "fuelLeakFxName": "fire_burning_fuel_oil_large",
@@ -3527,6 +3535,31 @@
         "fx": {
           "name": "smoke_after_hit_small",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "steam_leak",
+        "lifetime": 10.0,
+        "fx": {
+          "name": "explosion_steam_leak"
+        }
+      },
+      {
+        "name": "steam_explosion_medium",
+        "fx": {
+          "name": "explosion_steam_medium"
+        }
+      },
+      {
+        "name": "steam_explosion_big",
+        "fx": {
+          "name": "explosion_steam_big"
+        }
+      },
+      {
+        "name": "steam_explosion_nuclear",
+        "fx": {
+          "name": "explosion_steam_nuclear"
         }
       },
       {

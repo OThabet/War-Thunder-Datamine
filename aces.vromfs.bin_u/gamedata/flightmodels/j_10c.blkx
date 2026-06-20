@@ -3485,11 +3485,17 @@
       },
       {
         "name": "j_10c_ld10",
-        "blk": "gameData/FlightModels/weaponPresets/j_10c_ld10.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_10c_ld10.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_10c_cm_102",
-        "blk": "gameData/FlightModels/weaponPresets/j_10c_cm_102.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_10c_cm_102.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_10c_yj91_111",
@@ -4539,7 +4545,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 3
+              "order": 3,
+              "machLimit": 1.5
             }
           },
           {
@@ -4565,7 +4572,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 3
+              "order": 3,
+              "machLimit": 1.5
             }
           },
           {
@@ -4591,11 +4599,12 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 3
+              "order": 3,
+              "machLimit": 1.5
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot2",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -4723,7 +4732,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot3",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -5786,7 +5795,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot9",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -6734,7 +6743,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 4
+              "order": 4,
+              "machLimit": 1.5
             }
           },
           {
@@ -6760,7 +6770,8 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 4
+              "order": 4,
+              "machLimit": 1.5
             }
           },
           {
@@ -6786,11 +6797,12 @@
               "bullets": 1,
               "external": true,
               "separate": true,
-              "order": 4
+              "order": 4,
+              "machLimit": 1.5
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot10",
             "reqModification": "su_arm",
             "ShowNodes": {

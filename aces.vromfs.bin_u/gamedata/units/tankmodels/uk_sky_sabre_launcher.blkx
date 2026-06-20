@@ -411,6 +411,14 @@
         "hp": 250.0,
         "armorThrough": 15.0
       },
+      "turret_hydraulics_01_dm": {
+        "hp": 250.0,
+        "armorThrough": 15.0
+      },
+      "turret_hydraulics_02_dm": {
+        "hp": 250.0,
+        "armorThrough": 15.0
+      },
       "radiator_dm": {
         "hp": 50.0,
         "armorThrough": 5.0
@@ -424,6 +432,10 @@
         "armorThrough": 5.0
       },
       "radio_station_dm": {
+        "hp": 50.0,
+        "armorThrough": 3.0
+      },
+      "auxiliary_power_unit": {
         "hp": 50.0,
         "armorThrough": 3.0
       },
@@ -653,6 +665,16 @@
       "ammo_body_68_dm": {},
       "ammo_body_69_dm": {},
       "ammo_body_70_dm": {},
+      "ammo_body_71_dm": {},
+      "ammo_body_72_dm": {},
+      "ammo_body_73_dm": {},
+      "ammo_body_74_dm": {},
+      "ammo_body_75_dm": {},
+      "ammo_body_76_dm": {},
+      "ammo_body_77_dm": {},
+      "ammo_body_78_dm": {},
+      "ammo_body_79_dm": {},
+      "ammo_body_80_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -2056,7 +2078,7 @@
             ],
             "distRange": [
               10000.0,
-              80000.0
+              50000.0
             ],
             "priority": 75
           },
@@ -2067,12 +2089,28 @@
               2000.0
             ],
             "altRange": [
-              0.0,
+              20.0,
               25000.0
             ],
             "distRange": [
               0.0,
-              80000.0
+              20000.0
+            ],
+            "priority": 15
+          },
+          {
+            "isUnit": true,
+            "velRange": [
+              0.0,
+              2000.0
+            ],
+            "altRange": [
+              100.0,
+              25000.0
+            ],
+            "distRange": [
+              20000.0,
+              50000.0
             ],
             "priority": 10
           },

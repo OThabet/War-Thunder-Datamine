@@ -12,6 +12,7 @@
   "haveCCRPForBombs": true,
   "haveCCRPForGun": true,
   "havePointOfInterestDesignator": true,
+  "hasAimingPointsMemory": true,
   "ilsF15a": true,
   "rwrIndicator": "TEWS",
   "hmdF16c": true,
@@ -4552,7 +4553,7 @@
               "emitter": "emtr_flare1",
               "bullets": 60,
               "external": true,
-              "separate": false,
+              "separate": true,
               "bulletsCartridge": 1
             },
             {
@@ -4561,7 +4562,7 @@
               "emitter": "emtr_flare2",
               "bullets": 60,
               "external": true,
-              "separate": false,
+              "separate": true,
               "bulletsCartridge": 1
             },
             {
@@ -4570,7 +4571,7 @@
               "emitter": "emtr_flare3",
               "bullets": 30,
               "external": true,
-              "separate": false,
+              "separate": true,
               "bulletsCartridge": 1
             },
             {
@@ -4579,7 +4580,7 @@
               "emitter": "emtr_flare4",
               "bullets": 30,
               "external": true,
-              "separate": false,
+              "separate": true,
               "bulletsCartridge": 1
             }
           ]

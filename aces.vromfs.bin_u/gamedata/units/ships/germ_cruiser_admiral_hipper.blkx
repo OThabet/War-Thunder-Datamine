@@ -5293,12 +5293,6 @@
     "part": [
       {
         "name": [
-          "engine_room_01_dm",
-          "engine_room_02_dm",
-          "engine_room_03_dm",
-          "engine_room_04_dm",
-          "engine_room_05_dm",
-          "engine_room_06_dm",
           "transmission_01_dm",
           "transmission_02_dm",
           "transmission_03_dm",
@@ -5309,6 +5303,25 @@
         "onKill": {
           "fire": 0.15,
           "nothing": 0.85,
+          "fHitCritical": false
+        }
+      },
+      {
+        "name": [
+          "engine_room_01_dm",
+          "engine_room_02_dm",
+          "engine_room_03_dm",
+          "engine_room_04_dm",
+          "engine_room_05_dm",
+          "engine_room_06_dm",
+          "engine_room_07_dm",
+          "engine_room_08_dm",
+          "engine_room_09_dm",
+          "engine_room_10_dm"
+        ],
+        "onKill": {
+          "expl": 0.25,
+          "nothing": 0.75,
           "fHitCritical": false
         }
       },
@@ -7046,6 +7059,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7123,6 +7137,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7200,6 +7215,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7277,6 +7293,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7354,6 +7371,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7431,6 +7449,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7508,6 +7527,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -7585,6 +7605,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -8064,6 +8085,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -8153,6 +8175,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -8242,6 +8265,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -8331,6 +8355,7 @@
         "defaultPitch": 0.0,
         "speedYaw": 10.0,
         "speedPitch": 8.0,
+        "speedRoll": 10.0,
         "bullets": 420,
         "useGunnerTargetingQuality": false,
         "fireConeAngle": 1.0,
@@ -10803,6 +10828,18 @@
     },
     "ship_supportPlane": {}
   },
+  "boilerExplosionFx": {
+    "fx": [
+      {
+        "gearFrom": 0.0,
+        "event": "steam_explosion_big"
+      },
+      {
+        "gearFrom": 3.0,
+        "event": "steam_explosion_big"
+      }
+    ]
+  },
   "shipFuelLeakFxParams": {
     "fuelLeakFxName": "fire_burning_fuel_oil_large",
     "fuelLeakStayFxName": "fire_burning_fuel_oil_large",
@@ -11955,6 +11992,31 @@
         "fx": {
           "name": "smoke_after_hit_small",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "steam_leak",
+        "lifetime": 10.0,
+        "fx": {
+          "name": "explosion_steam_leak"
+        }
+      },
+      {
+        "name": "steam_explosion_medium",
+        "fx": {
+          "name": "explosion_steam_medium"
+        }
+      },
+      {
+        "name": "steam_explosion_big",
+        "fx": {
+          "name": "explosion_steam_big"
+        }
+      },
+      {
+        "name": "steam_explosion_nuclear",
+        "fx": {
+          "name": "explosion_steam_nuclear"
         }
       },
       {

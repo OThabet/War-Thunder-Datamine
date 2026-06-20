@@ -59,7 +59,6 @@
   "smokeScreenFx": "smokescreen_no_therm_small",
   "smokeVisibilityType1": "visual",
   "smokeVisibilityType2": "optic",
-  "additionalEcsTemplate": "cloth_wind",
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -879,6 +878,10 @@
         "hp": 50.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "electronic_equipment_01_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -890,10 +893,6 @@
       "fire_control_system_01_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
-      },
-      "power_system_01_dm": {
-        "hp": 60.0,
-        "armorThrough": 15.0
       }
     },
     "cannon_breech": {
@@ -1096,6 +1095,16 @@
       "ammo_body_68_dm": {},
       "ammo_body_69_dm": {},
       "ammo_body_70_dm": {},
+      "ammo_body_71_dm": {},
+      "ammo_body_72_dm": {},
+      "ammo_body_73_dm": {},
+      "ammo_body_74_dm": {},
+      "ammo_body_75_dm": {},
+      "ammo_body_76_dm": {},
+      "ammo_body_77_dm": {},
+      "ammo_body_78_dm": {},
+      "ammo_body_79_dm": {},
+      "ammo_body_80_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},

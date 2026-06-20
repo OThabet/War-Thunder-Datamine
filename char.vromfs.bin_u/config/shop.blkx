@@ -8254,9 +8254,7 @@
           },
           "mig-21_bison": {
             "rank": 8,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showByPlatform": "xboxOne;xboxScarlett"
+            "reqAir": ""
           },
           "cf_188a_canada": {
             "rank": 8,
@@ -11087,9 +11085,7 @@
           },
           "j_7d": {
             "rank": 7,
-            "reqAir": "",
-            "gift": "msi_notebook",
-            "showByPlatform": "xboxOne;xboxScarlett"
+            "reqAir": ""
           },
           "jh_7a_prototype": {
             "rank": 8,
@@ -13446,7 +13442,7 @@
             "hideFeature": "!Marketplace",
             "event": "winter_2024"
           },
-          "f_16am_block_15_mlu_fs_belgium": {
+          "f_16am_block_20_mlu_netherlands": {
             "rank": 8,
             "reqAir": "",
             "gift": "msi_notebook"
@@ -13863,7 +13859,7 @@
             "rank": 8
           },
           "sw_eldenhet_nomads_group": {
-            "image": "#ui/unitskin#sw_lvkv_asrad_group",
+            "image": "#ui/unitskin#sw_eldenhet_nomads_group",
             "sw_eldenhet_98": {
               "rank": 8
             },

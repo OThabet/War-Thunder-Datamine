@@ -3266,11 +3266,17 @@
       },
       {
         "name": "j_10a_ld10",
-        "blk": "gameData/FlightModels/weaponPresets/j_10a_ld10.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_10a_ld10.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_10a_cm_102",
-        "blk": "gameData/FlightModels/weaponPresets/j_10a_cm_102.blk"
+        "blk": "gameData/FlightModels/weaponPresets/j_10a_cm_102.blk",
+        "weaponConfig": {
+          "presetType": "AIR_TO_RADAR"
+        }
       },
       {
         "name": "j_10a_hf7",
@@ -3662,7 +3668,7 @@
             ]
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot2",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -4002,7 +4008,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot3",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -4645,7 +4651,7 @@
             }
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot9",
             "reqModification": "su_arm",
             "ShowNodes": {
@@ -5009,7 +5015,7 @@
             ]
           },
           {
-            "iconType": "arm_r27_type_s",
+            "iconType": "arm_r27_type_b",
             "name": "cm_102_slot10",
             "reqModification": "su_arm",
             "ShowNodes": {

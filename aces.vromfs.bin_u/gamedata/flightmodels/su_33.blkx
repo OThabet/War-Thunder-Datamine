@@ -10,6 +10,7 @@
   "haveCCRPForBombs": true,
   "haveCCRPForGun": true,
   "havePointOfInterestDesignator": true,
+  "hasAimingPointsMemory": true,
   "gyroSight": true,
   "ils31": true,
   "hmdShelZoom": [
@@ -2961,7 +2962,7 @@
           ],
           "page": {
             "type": "rwr",
-            "scale": 1.0
+            "scale": 0.75
           }
         },
         {

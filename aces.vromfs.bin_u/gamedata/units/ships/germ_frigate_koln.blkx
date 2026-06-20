@@ -30,6 +30,7 @@
   "explosionFx": "explosion_ship_medium",
   "decorCutProps": "destroyer",
   "propSplashEffects": "propSplashEffects_underwater",
+  "boilerOverpressureStartFx": "steam_leak",
   "deadCoverCountToDelayedSinking": 2,
   "delayedSinkingBreachesFreq": 3.0,
   "delayedSinkingBreachesSize": [
@@ -2176,13 +2177,9 @@
           "engine_room_06_dm"
         ],
         "onKill": {
-          "expl": 1.0,
-          "fHitCritical": false,
-          "action": {
-            "type": "fxEvent",
-            "probability": 1.0,
-            "fxEventName": "steam_leak"
-          }
+          "expl": 0.25,
+          "nothing": 0.75,
+          "fHitCritical": false
         }
       },
       {
@@ -2768,11 +2765,11 @@
               "verNode": "ex_armor_09",
               "verLimits": [
                 -5.0,
-                90.0
+                85.0
               ],
               "verOriginLimits": [
                 -5.0,
-                90.0
+                85.0
               ]
             }
           ]
@@ -2784,7 +2781,7 @@
           ],
           "pitch": [
             -5.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2792,43 +2789,43 @@
             -150.0,
             -145.0,
             0.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -145.0,
             -14.0,
             -5.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -14.0,
             -8.0,
             -3.0,
-            90.0
+            85.0
           ],
           "lim4": [
             -8.0,
             8.0,
             -1.0,
-            90.0
+            85.0
           ],
           "lim5": [
             8.0,
             14.0,
             -3.0,
-            90.0
+            85.0
           ],
           "lim6": [
             14.0,
             145.0,
             -5.0,
-            90.0
+            85.0
           ],
           "lim7": [
             145.0,
             150.0,
             0.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -2905,7 +2902,7 @@
           ],
           "pitch": [
             -5.0,
-            90.0
+            85.0
           ]
         },
         "limitsTable": {
@@ -2913,31 +2910,31 @@
             -150.0,
             -148.0,
             0.0,
-            90.0
+            85.0
           ],
           "lim2": [
             -148.0,
             -10.0,
             -5.0,
-            90.0
+            85.0
           ],
           "lim3": [
             -10.0,
             10.0,
             -2.0,
-            90.0
+            85.0
           ],
           "lim4": [
             10.0,
             148.0,
             -5.0,
-            90.0
+            85.0
           ],
           "lim5": [
             148.0,
             150.0,
             0.0,
-            90.0
+            85.0
           ]
         },
         "gunStabilizer": {
@@ -3009,11 +3006,11 @@
               "horNode": "ex_armor_11",
               "horLimits": [
                 -20.0,
-                90.0
+                85.0
               ],
               "horOriginLimits": [
                 -20.0,
-                90.0
+                85.0
               ]
             }
           ]
@@ -3899,7 +3896,7 @@
       },
       {
         "gearFrom": 3.0,
-        "event": "steam_explosion_big"
+        "event": "steam_explosion_medium"
       }
     ]
   },
@@ -5037,7 +5034,7 @@
       },
       {
         "name": "steam_leak",
-        "lifetime": 5.0,
+        "lifetime": 10.0,
         "fx": {
           "name": "explosion_steam_leak"
         }

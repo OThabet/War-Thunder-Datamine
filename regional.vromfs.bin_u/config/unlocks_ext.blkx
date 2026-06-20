@@ -5118,6 +5118,92 @@
       }
     },
     {
+      "id": "2026_06_12_russia_day_decals",
+      "locId": "unlocks/group/russia_day",
+      "locDescId": "gift_decals_trophy/desc",
+      "userLogId": "2026_06_12_russia_day_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "holidays",
+      "group": "russia_day",
+      "costGold": 199,
+      "visibleDaysAfter": 1.0,
+      "manualOpen": true,
+      "mode": {
+        "type": "totalMissionScore",
+        "score": 100500000,
+        "chardType": "char_static_progress",
+        "num": 3000000,
+        "hostCondition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_ussr"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-12 10:00:00",
+            "endDate": "2026-06-15 10:30:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026_06_12_german_navy_day_decals",
+      "locId": "unlocks/group/german_navy_day",
+      "locDescId": "gift_decals_trophy/desc",
+      "userLogId": "2026_06_12_german_navy_day_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "holidays",
+      "group": "german_navy_day",
+      "costGold": 199,
+      "visibleDaysAfter": 1.0,
+      "manualOpen": true,
+      "mode": {
+        "type": "totalMissionScore",
+        "score": 100500000,
+        "chardType": "char_static_progress",
+        "num": 3000000,
+        "hostCondition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_germany"
+          },
+          {
+            "type": "playerType",
+            "unitType": [
+              "ship",
+              "boat"
+            ],
+            "inSession": true
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-12 11:00:00",
+            "endDate": "2026-06-15 11:30:00"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026_06_10_italian_navy_day_decals",
       "locId": "unlocks/group/italian_navy_day",
       "locDescId": "gift_decals_trophy/desc",
@@ -20867,13 +20953,19 @@
       "hidden": true
     },
     {
-      "id": "ab_test_tank_action_tutorial_hidden",
+      "id": "ab_test_tank_action_tutorial_hidden_unlock",
       "type": "achievement",
-      "chapter": "test",
+      "hidden": true,
+      "isAllowByClient": true
+    },
+    {
+      "id": "ab_test_tank_action_tutorial_hidden",
+      "type": "entitlement",
       "hidden": true,
       "mode": {
-        "type": "char_static_progress",
-        "num": 1
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "ab_test_tank_action_tutorial_hidden_unlock"
       }
     },
     {
@@ -22540,6 +22632,96 @@
     },
     {
       "id": "title_wtcs_armored_apex_2025_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_1_pro_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_2_pro_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_3_pro_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_1_pro_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_2_pro_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_3_pro_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_wtcs_rising_challenger",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_1_challenger_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_2_challenger_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_3_challenger_mvp",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_1_challenger_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_2_challenger_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_major_3_challenger_champion",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_grand_master_champion_2026",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    },
+    {
+      "id": "title_challenger_grand_champion_2026",
       "type": "title",
       "chapter": "title",
       "hideUntilUnlocked": true
@@ -28558,11 +28740,399 @@
       }
     },
     {
+      "id": "us_12_fb_sqn_foxy",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "killedPlayersScore",
+        "num": 20,
+        "mulArcade": 1,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "weaponType",
+            "weapon": "unguided_bomb"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "aircraft"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_usa"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "de_jg26_sqn_schlageter",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "missionsPlayedScore",
+        "num": 5,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "minStat",
+            "value": [
+              5,
+              5,
+              5
+            ],
+            "stat": "place"
+          },
+          {
+            "type": "playerType",
+            "unitType": "aircraft"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_germany"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ussr_pioneers_decal",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "killedPlayersScore",
+        "num": 50,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "tank"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_ussr"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "au_hot_stuff_decal",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "missionsPlayedScore",
+        "num": 3,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "minStat",
+            "value": [
+              3,
+              3,
+              3
+            ],
+            "stat": "place"
+          },
+          {
+            "type": "playerType",
+            "unitType": "aircraft"
+          },
+          {
+            "type": "playerCountry",
+            "country": [
+              "country_britain",
+              "country_australia"
+            ]
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "jp_northen_army_1st_tank_discrict",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "missionsPlayedScore",
+        "num": 20,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "activity",
+            "percent": 60
+          },
+          {
+            "type": "playerType",
+            "unitType": "tank"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_japan"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cn_invaders_inscription",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "killedPlayersScore",
+        "num": 20,
+        "mulArcade": 1,
+        "mulRealistic": 2,
+        "mulHardcore": 2,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "weaponType",
+            "weapon": "aam"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "aircraft"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_china"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "it_79_garibaldi_decal",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "killedPlayersScore",
+        "num": 40,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "typeLightTank"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_italy"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fr_la_surprise_decal",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "awardDamage",
+        "num": 20000,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "boat"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_france"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fi_2_hlelv_31_moonbat",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "missionsWonScore",
+        "num": 10,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "activity",
+            "percent": 60
+          },
+          {
+            "type": "playerType",
+            "unitType": "aircraft"
+          },
+          {
+            "type": "playerCountry",
+            "country": [
+              "country_sweden",
+              "country_finland"
+            ]
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "il_7th_brigade_snake",
+      "type": "decal",
+      "chapter": "decals",
+      "group": "weekly",
+      "hideForLang": "HChinese",
+      "mode": {
+        "type": "burnedUnitsScore",
+        "num": 20,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "offenderUnitRank",
+            "minRank": 3
+          },
+          {
+            "type": "offenderType",
+            "unitType": "tank"
+          },
+          {
+            "type": "targetIsPlayer"
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_israel"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-11 11:00:00",
+            "endDate": "2026-07-09 09:00:00"
+          }
+        ]
+      }
+    },
+    {
       "id": "us_democracy_deliverer_decal",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "missionsPlayedScore",
         "num": 3,
@@ -28607,6 +29177,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "killedPlayersScore",
         "num": 30,
@@ -28644,6 +29215,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "killedPlayersScore",
         "num": 50,
@@ -28677,6 +29249,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "totalMissionScore",
         "score": 2147483646,
@@ -28715,6 +29288,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "awardDamage",
         "num": 20000,
@@ -28748,6 +29322,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "missionsWonScore",
         "num": 10,
@@ -28787,6 +29362,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "killedPlayersScore",
         "num": 40,
@@ -28820,6 +29396,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "missionsPlayedScore",
         "num": 5,
@@ -28864,6 +29441,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "missionsPlayedScore",
         "num": 20,
@@ -28903,6 +29481,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
+      "hideUntilUnlocked": true,
       "mode": {
         "type": "killedPlayersScore",
         "num": 30,
@@ -34165,14 +34744,6 @@
       "hideUntilUnlocked": true
     },
     {
-      "id": "de_jg26_sqn_schlageter",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hideForLang": "HChinese",
-      "hideUntilUnlocked": true
-    },
-    {
       "id": "us_vt_6_torp_sqn",
       "type": "decal",
       "chapter": "decals",
@@ -34198,14 +34769,6 @@
     },
     {
       "id": "ussr_3_tank_corps",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hideForLang": "HChinese",
-      "hideUntilUnlocked": true
-    },
-    {
-      "id": "il_7th_brigade_snake",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -34285,14 +34848,6 @@
     },
     {
       "id": "ge_3rd_sboote_fl_dolphin_s57",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hideForLang": "HChinese",
-      "hideUntilUnlocked": true
-    },
-    {
-      "id": "jp_northen_army_1st_tank_discrict",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -34902,13 +35457,6 @@
     },
     {
       "id": "jp_okha_7th_sensha_rentai",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hidden": true
-    },
-    {
-      "id": "us_12_fb_sqn_foxy",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -35532,13 +36080,6 @@
     },
     {
       "id": "uk_1st_armoured_division",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "weekly",
-      "hidden": true
-    },
-    {
-      "id": "fi_2_hlelv_31_moonbat",
       "type": "decal",
       "chapter": "decals",
       "group": "weekly",
@@ -60760,7 +61301,6 @@
             "value": [
               "air_arcade",
               "air_realistic",
-              "tank_event_in_random_battles_arcade",
               "tank_event_in_random_battles_historical",
               "tank_random_battles_simulation",
               "tank_random_battles_simulation_1",
@@ -60826,9 +61366,7 @@
               "tank_event_in_random_battles_arcade",
               "tank_event_in_random_battles_historical",
               "tank_random_battles_simulation",
-              "tank_random_battles_simulation_1",
-              "ship_event_in_random_battles_arcade",
-              "ship_event_in_random_battles_realistic"
+              "tank_random_battles_simulation_1"
             ],
             "hideValue": "tank_random_battles_simulation_1",
             "locParamName": "conditions/missionType",

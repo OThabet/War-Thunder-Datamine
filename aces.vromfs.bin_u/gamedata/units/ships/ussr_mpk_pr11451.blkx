@@ -30,6 +30,7 @@
   "explosionFx": "explosion_ship_medium",
   "decorCutProps": "destroyer",
   "propSplashEffects": "propSplashEffects_underwater",
+  "boilerOverpressureStartFx": "steam_leak",
   "smokeScreenActivateTime": 2.5,
   "smokeScreenEffectTime": 20.0,
   "smokeScreenRad": 20.0,
@@ -2019,7 +2020,7 @@
       },
       {
         "gearFrom": 3.0,
-        "event": "steam_explosion_big"
+        "event": "steam_explosion_medium"
       }
     ]
   },
@@ -3157,7 +3158,7 @@
       },
       {
         "name": "steam_leak",
-        "lifetime": 5.0,
+        "lifetime": 10.0,
         "fx": {
           "name": "explosion_steam_leak"
         }
