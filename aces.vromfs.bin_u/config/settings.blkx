@@ -1925,6 +1925,7 @@
     "menuFpsLimit": 0,
     "dlss_rr_reads_rt_settings": true,
     "msgBoxAndQuitOnInitVideoFail": true,
+    "overrideDriver": true,
     "hdrBlackList": {
       "blocked": "AMD Radeon Pro 560"
     }
@@ -2470,7 +2471,12 @@
     "gpuPreferences": {
       "intel": {
         "vendorId": 32902,
-        "minDriver": "30.0.101.1340"
+        "minDriver": "30.0.101.1340",
+        "preferredFamily": [
+          32,
+          37,
+          39
+        ]
       },
       "nvidia": {
         "vendorId": 4318,

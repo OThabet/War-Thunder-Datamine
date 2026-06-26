@@ -309,6 +309,35 @@
       }
     },
     {
+      "id": "2026_06_25_poll_check",
+      "type": "achievement",
+      "hidden": true,
+      "mode": {
+        "type": "missionsPlayedScore",
+        "num": 3,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "activity",
+            "percent": 50
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-25 09:00:00",
+            "endDate": "2026-07-09 09:30:00"
+          }
+        ]
+      }
+    },
+    {
       "id": "2020_06_target_discounts_usa_hidden_condition",
       "type": "challenge",
       "hidden": true,
@@ -5118,6 +5147,45 @@
       }
     },
     {
+      "id": "2026_06_26_br_armed_forces_day_decals",
+      "locId": "unlocks/group/br_armed_forces_day",
+      "locDescId": "gift_decals_trophy/desc",
+      "userLogId": "2026_06_26_br_armed_forces_day_decals_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "holidays",
+      "group": "br_armed_forces_day",
+      "costGold": 199,
+      "visibleDaysAfter": 1.0,
+      "manualOpen": true,
+      "mode": {
+        "type": "totalMissionScore",
+        "score": 100500000,
+        "chardType": "char_static_progress",
+        "num": 3000000,
+        "hostCondition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "inSession": true,
+            "inSessionAnd": false
+          },
+          {
+            "type": "playerCountry",
+            "country": "country_britain"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-26 11:00:00",
+            "endDate": "2026-06-29 11:30:00"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026_06_12_russia_day_decals",
       "locId": "unlocks/group/russia_day",
       "locDescId": "gift_decals_trophy/desc",
@@ -5128,7 +5196,7 @@
       "group": "russia_day",
       "costGold": 199,
       "visibleDaysAfter": 1.0,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "totalMissionScore",
         "score": 100500000,
@@ -5167,7 +5235,7 @@
       "group": "german_navy_day",
       "costGold": 199,
       "visibleDaysAfter": 1.0,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "totalMissionScore",
         "score": 100500000,
@@ -5214,7 +5282,7 @@
       "group": "italian_navy_day",
       "costGold": 199,
       "visibleDaysAfter": 1.0,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "totalMissionScore",
         "score": 100500000,
@@ -5875,6 +5943,33 @@
             "type": "timeRange",
             "beginDate": "2026-04-29 10:00:00",
             "endDate": "2026-05-02 10:30:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026_06_26_nuclear_escalation_poll",
+      "type": "achievement",
+      "hidden": true,
+      "mode": {
+        "type": "missionsPlayedScore",
+        "num": 2,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": true,
+            "value": "nuclear_escalation",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/short/"
+          },
+          {
+            "type": "timeRange",
+            "beginDate": "2026-06-26 10:00:00",
+            "endDate": "2026-07-01 10:30:00"
           }
         ]
       }
@@ -36247,24 +36342,10 @@
       "hidden": true
     },
     {
-      "id": "it_com_group",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "italy",
-      "hidden": true
-    },
-    {
       "id": "ch_1st_armoured_brigade",
       "type": "decal",
       "chapter": "decals",
       "group": "allies_tanks",
-      "hidden": true
-    },
-    {
-      "id": "it_com_regiment",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "axis_common",
       "hidden": true
     },
     {
@@ -36275,31 +36356,10 @@
       "hidden": true
     },
     {
-      "id": "uk_commodore",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "allies_images",
-      "hidden": true
-    },
-    {
       "id": "jp_ijaaf_244th_snt_kobayashi",
       "type": "decal",
       "chapter": "decals",
       "group": "japan",
-      "hidden": true
-    },
-    {
-      "id": "it_com_squadron",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "axis_common",
-      "hidden": true
-    },
-    {
-      "id": "uk_group_captain",
-      "type": "decal",
-      "chapter": "decals",
-      "group": "allies_images",
       "hidden": true
     },
     {
@@ -144830,8 +144890,8 @@
       "chapter": "2026_06_air",
       "icon": "!https://static-ggc.gaijin.net/units/spitfire_mk5b_float.png",
       "lockStyle": "lock",
+      "hidden": true,
       "isForceVisibleInTree": true,
-      "manualOpen": true,
       "mode": {
         "type": "char_unlocks",
         "num": 6,
@@ -144854,8 +144914,8 @@
       "group": "coupon_upgrade",
       "icon": "https://static-ggc.gaijin.net/items/coupon_upgrade_q4.png",
       "lockStyle": "lock",
+      "hidden": true,
       "isForceVisibleInTree": true,
-      "manualOpen": true,
       "mode": {
         "type": "totalMissionScore",
         "score": 2147483646,
@@ -144914,8 +144974,8 @@
       "amount_trophies": 1,
       "chapter": "2026_06_air",
       "lockStyle": "lock",
+      "hidden": true,
       "showInDesc": true,
-      "manualOpen": true,
       "mode": {
         "type": "char_unlocks",
         "num": 1,
@@ -144940,7 +145000,7 @@
       "icon": "!https://static-ggc.gaijin.net/decals/2026_06_aircraft_event_decals.avif",
       "lockStyle": "lock",
       "showInDesc": true,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "char_unlocks",
         "num": 2,
@@ -144963,9 +145023,9 @@
       "amount_trophies": 1,
       "chapter": "2026_06_air",
       "lockStyle": "lock",
+      "hidden": true,
       "isForceVisibleInTree": true,
       "showInDesc": true,
-      "manualOpen": true,
       "mode": {
         "type": "char_unlocks",
         "num": 3,
@@ -144990,7 +145050,7 @@
       "icon": "!https://static-ggc.gaijin.net/decals/2026_06_aircraft_event_decals.avif",
       "lockStyle": "lock",
       "showInDesc": true,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "char_unlocks",
         "num": 4,
@@ -145014,7 +145074,7 @@
       "chapter": "2026_06_air",
       "lockStyle": "lock",
       "showInDesc": true,
-      "manualOpen": true,
+      "hidden": true,
       "mode": {
         "type": "char_unlocks",
         "num": 5,
@@ -145032,6 +145092,7 @@
       "id": "13_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_6/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,
@@ -145095,6 +145156,7 @@
       "id": "11_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_5/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,
@@ -145158,6 +145220,7 @@
       "id": "09_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_4/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,
@@ -145221,6 +145284,7 @@
       "id": "07_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_3/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,
@@ -145284,6 +145348,7 @@
       "id": "05_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_2/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,
@@ -145347,6 +145412,7 @@
       "id": "03_06_2026_aircraft_stage",
       "locId": "marathon_air_stage_1/name",
       "chapter": "2026_06_air",
+      "hidden": true,
       "type": "achievement",
       "group": "tasks",
       "visibleDays": 1.0,

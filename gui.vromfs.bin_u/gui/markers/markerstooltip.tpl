@@ -1,6 +1,6 @@
 tdiv {
   flow:t='vertical'
-  width:t=<<#isTooltipWide>>'460@sf/@pf'<</isTooltipWide>><<^isTooltipWide>>'360@sf/@pf'<</isTooltipWide>>
+  min-width:t=<<#isTooltipWide>>'460@sf/@pf'<</isTooltipWide>><<^isTooltipWide>>'360@sf/@pf'<</isTooltipWide>>
 
   textareaNoTab {
     text:t='<<header>>'
@@ -20,7 +20,6 @@ tdiv {
   <</isPC>>
   <<^isPC>>
   tdiv {
-    width:t='pw'
     margin-bottom:t='1@blockInterval'
     textareaNoTab {
       text:t='#mainmenu/openLimitBuyWndHintConsolePrefix'
@@ -28,14 +27,11 @@ tdiv {
       margin-right:t='1@blockInterval'
       valign:t='center'
     }
-    img{
-      background-image:t='ui/gameuiskin#xone_button_a.svg'
-      background-repeat:t='aspect-ratio'
-      bgcolor:t='#FFFFFF'
-      background-svg-size:t='1@sIco, 1@sIco'
+    ButtonImg {
       size:t='1@sIco, 1@sIco'
-      input-transparent:t='yes'
-      valign:t='center'
+      pos:t='0, 50%ph-50%h'
+      position:t='relative'
+      btnName:t='A'
     }
     textareaNoTab {
       text:t='#mainmenu/openLimitBuyWndHintConsolePostfix'

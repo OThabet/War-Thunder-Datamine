@@ -6,7 +6,12 @@
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
   "mesh": "uk_alarm_missile",
-  "rollForDemonstration": 90.0,
+  "rollForDemonstration": 180.0,
+  "offsetForDemonstration": [
+    0.0,
+    0.14,
+    0.0
+  ],
   "tags": {},
   "rocket": {
     "dragCx": 0.018,
@@ -30,7 +35,7 @@
     "finsAoaVer": 0.15,
     "distFromCmToStab": 0.15,
     "mass": 265.0,
-    "timeLife": 320.0,
+    "timeLife": 450.0,
     "startSpeed": 0.0,
     "machMax": 2.0,
     "maxSpeed": 600.0,
@@ -237,7 +242,25 @@
           },
           {
             "shellState": "onUnit",
+            "damageType": "genericLongRod",
+            "expl": 0.05,
+            "fire": 0.45,
+            "break": 0.5,
+            "damage": 3.0,
+            "fHitCritical": true
+          },
+          {
+            "shellState": "onUnit",
             "damageType": "generic",
+            "expl": 0.5,
+            "fire": 0.3,
+            "break": 0.2,
+            "damage": 30.0,
+            "fHitCritical": true
+          },
+          {
+            "shellState": "onUnit",
+            "damageType": "genericLongRod",
             "expl": 0.5,
             "fire": 0.3,
             "break": 0.2,

@@ -1982,6 +1982,13 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.075,
+            "fire": 0.075,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "expl": 0.15,
             "fire": 0.15,
@@ -1989,7 +1996,21 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.15,
+            "fire": 0.15,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "expl": 0.25,
+            "fire": 0.25,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "expl": 0.25,
             "fire": 0.25,
             "damage": 300.0,
@@ -2044,6 +2065,12 @@
             "expl": 0.5,
             "full_expl": 0.1,
             "fire": 0.4
+          },
+          {
+            "damageType": "genericLongRod",
+            "expl": 0.5,
+            "full_expl": 0.1,
+            "fire": 0.4
           }
         ]
       },
@@ -2069,7 +2096,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.05,
+            "damage": 20.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.1,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.1,
             "damage": 70.0,
             "fHitCritical": true
@@ -2081,7 +2120,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.3,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.4,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.4,
             "damage": 300.0,
             "fHitCritical": true
@@ -2120,7 +2171,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.05,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.1,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.1,
             "damage": 200.0,
             "fHitCritical": true
@@ -2341,7 +2404,7 @@
     "Weapon": [
       {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/125mm_2A46_M5_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/125mm_2A46_M5_t_90m_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
         "shellCasingEmitter": "emtr_shell",
@@ -2679,9 +2742,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 49500.0,
+      "Empty": 50500.0,
       "Fuel": 500.0,
-      "TakeOff": 50000.0,
+      "TakeOff": 51000.0,
       "momentOfInertia": [
         2.5,
         2.5,
@@ -4214,7 +4277,7 @@
           "Weapon": [
             {
               "trigger": "gunner0",
-              "blk": "gameData/Weapons/groundModels_weapons/125mm_2A46_M5_user_cannon.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/125mm_2A46_M5_t_90m_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
               "shellCasingEmitter": "emtr_shell",
@@ -5023,7 +5086,7 @@
       70.0,
       1000.0
     ],
-    "shotCount": 13,
+    "shotCount": 11,
     "RightModule_1": {
       "sensorPos": [
         -1.5,
@@ -5037,7 +5100,7 @@
         180.0
       ],
       "emitterGenRange": [
-        7,
+        9,
         11
       ],
       "emitterGenFmt": "bone_rocket_%02d",
@@ -5048,7 +5111,7 @@
       "distance": 10.0,
       "sensorDistance": 50.0,
       "reloadTime": 0.3,
-      "shotCount": 5,
+      "shotCount": 3,
       "inaccuracy": [
         0.01,
         0.01,

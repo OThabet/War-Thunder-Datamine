@@ -630,9 +630,6 @@
       "drive_turret_h_dm": {
         "armorThrough": 15.0
       },
-      "driver_controls_dm": {
-        "armorThrough": 15.0
-      },
       "drive_turret_v_01_dm": {
         "hp": 40.0,
         "armorThrough": 15.0
@@ -677,14 +674,6 @@
         "hp": 250.0,
         "armorThrough": 15.0
       },
-      "turret_hydraulics_01_dm": {
-        "hp": 250.0,
-        "armorThrough": 15.0
-      },
-      "turret_hydraulics_02_dm": {
-        "hp": 250.0,
-        "armorThrough": 15.0
-      },
       "radiator_dm": {
         "hp": 50.0,
         "armorThrough": 5.0
@@ -698,10 +687,6 @@
         "armorThrough": 5.0
       },
       "radio_station_dm": {
-        "hp": 50.0,
-        "armorThrough": 3.0
-      },
-      "auxiliary_power_unit": {
         "hp": 50.0,
         "armorThrough": 3.0
       },
@@ -720,14 +705,6 @@
       "fire_control_system_01_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
-      },
-      "power_system_dm": {
-        "hp": 60.0,
-        "armorThrough": 15.0
-      },
-      "power_system_01_dm": {
-        "hp": 60.0,
-        "armorThrough": 15.0
       }
     },
     "cannon_breech": {
@@ -1145,13 +1122,31 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.2,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "fire": 0.4,
             "damage": 200.0,
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.4,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.5,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.5,
             "damage": 300.0,
             "fHitCritical": true
@@ -1258,6 +1253,13 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.075,
+            "fire": 0.075,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "expl": 0.15,
             "fire": 0.15,
@@ -1265,7 +1267,21 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.15,
+            "fire": 0.15,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "expl": 0.25,
+            "fire": 0.25,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "expl": 0.25,
             "fire": 0.25,
             "damage": 300.0,
@@ -1317,6 +1333,12 @@
           },
           {
             "damageType": "generic",
+            "expl": 0.5,
+            "full_expl": 0.1,
+            "fire": 0.4
+          },
+          {
+            "damageType": "genericLongRod",
             "expl": 0.5,
             "full_expl": 0.1,
             "fire": 0.4
@@ -1405,6 +1427,13 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.0,
+            "fire": 0.0,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "expl": 0.0,
             "fire": 0.0,
@@ -1412,7 +1441,21 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "expl": 0.0,
+            "fire": 0.0,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "expl": 0.0,
+            "fire": 0.0,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "expl": 0.0,
             "fire": 0.0,
             "damage": 300.0,
@@ -1460,7 +1503,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.05,
+            "damage": 20.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.1,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.1,
             "damage": 70.0,
             "fHitCritical": true
@@ -1472,7 +1527,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.3,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.4,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.4,
             "damage": 300.0,
             "fHitCritical": true
@@ -1561,13 +1628,32 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.05,
+            "damage": 20.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "fire": 0.1,
             "damage": 70.0,
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.1,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.2,
+            "expl": 0.2,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.2,
             "expl": 0.2,
             "damage": 200.0,
@@ -1581,6 +1667,13 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.4,
+            "expl": 0.6,
+            "damage": 250.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
             "fire": 0.3,
             "expl": 0.7,
@@ -1588,7 +1681,20 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.3,
+            "expl": 0.7,
+            "damage": 300.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "expl": 1.0,
+            "damage": 600.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "expl": 1.0,
             "damage": 600.0,
             "fHitCritical": true
@@ -1625,7 +1731,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "genericLongRod",
+            "fire": 0.05,
+            "damage": 70.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "generic",
+            "fire": 0.1,
+            "damage": 200.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "genericLongRod",
             "fire": 0.1,
             "damage": 200.0,
             "fHitCritical": true
@@ -2058,7 +2176,7 @@
     "Weapon": [
       {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/120mm_L30A1_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/120mm_L30A1_2e_user_cannon.blk",
         "shotFreq": 0.2,
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
@@ -3475,10 +3593,6 @@
       "tier": 1
     },
     "120mm_britain_L37A7_HESH": {},
-    "120mm_britain_L26_APDSFS": {},
-    "120mm_britain_L26_APDSFS_ammo_pack": {
-      "tier": 1
-    },
     "120mm_britain_L27_APDSFS": {},
     "120mm_britain_L27_APDSFS_ammo_pack": {},
     "art_support": {},
@@ -3490,7 +3604,7 @@
           "Weapon": [
             {
               "trigger": "gunner0",
-              "blk": "gameData/Weapons/groundModels_weapons/120mm_L30A1_user_cannon.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/120mm_L30A1_2e_user_cannon.blk",
               "shotFreq": 0.2,
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",

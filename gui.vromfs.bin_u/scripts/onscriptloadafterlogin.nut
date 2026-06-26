@@ -226,7 +226,6 @@ foreach (fn in [
   "%scripts/userLog/userlogViewData.nut"
   "%scripts/userLog/userLog.nut"
 
-  "%scripts/crew/crewModalHandler.nut"
   "%scripts/crew/crewWndHandler.nut"
   "%scripts/crew/crewShortCache.nut"
   "%scripts/crew/skillParametersRequestType.nut"
@@ -341,6 +340,7 @@ require("%scripts/dmViewer/modeXrayDebugExport.nut")
 require("%scripts/exportInfo/skinsLocExporter.nut")
 require("%scripts/exportInfo/eventRewardsInfoExporter.nut")
 require("%scripts/exportInfo/historyPagesLocExporter.nut")
+require("%scripts/exportInfo/tssDataExporter.nut")
 require("%scripts/onlineShop/buyPremiumHandler.nut")
 require("%scripts/unlocks/requestInventoryUnlocks.nut")
 require("%scripts/countries/chooseCountryView.nut")

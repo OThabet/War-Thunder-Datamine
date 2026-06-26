@@ -12122,15 +12122,16 @@
     },
     {
       "name": "kennel_a_snow",
-      "destroyedModelName": "kennel_a_destr_phobj",
+      "destroyedModelName": "kennel_a_snow_destr_phobj",
       "destructionImpulse": 8000.0,
       "fx": "ad_wood_snow_small",
       "stopsBullets": false,
-      "material": "transparentBeton"
+      "material": "transparentBeton",
+      "isParent": true
     },
     {
       "name": "kennel_b_snow",
-      "destroyedModelName": "kennel_b_destr_phobj",
+      "destroyedModelName": "kennel_b_snow_destr_phobj",
       "destructionImpulse": 8000.0,
       "fx": "ad_wood_snow_small",
       "stopsBullets": false,
@@ -12262,7 +12263,8 @@
       "destructionImpulse": 20000.0,
       "fx": "ad_wood_snow_small",
       "material": "transparentBeton",
-      "stopsBullets": false
+      "stopsBullets": false,
+      "isParent": true
     },
     {
       "name": "european_bycicle_damaged_a_snow",
@@ -12449,7 +12451,8 @@
       "destructionImpulse": 20000.0,
       "fx": "ad_wood_snow_small",
       "material": "wood",
-      "stopsBullets": false
+      "stopsBullets": false,
+      "isParent": true
     },
     {
       "name": "wood_table_b_snow",
@@ -13046,7 +13049,8 @@
       "destructionImpulse": 3000.0,
       "fx": "ad_wood_snow_small",
       "material": "transparentBeton",
-      "stopsBullets": false
+      "stopsBullets": false,
+      "isParent": true
     },
     {
       "name": "european_bench_b",
@@ -30074,6 +30078,1181 @@
     },
     {
       "name": "european_village_barn_a_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_abandoned_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_1_floors_b_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_abandoned_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_a_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_roof_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_abandoned_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_roof_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_2_floors_b_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_annex_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_annex_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_annex_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_suburb_building_annex_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_roof_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_01_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_02_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_03_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_04_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_05_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_05_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_06_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_06_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_e_snow_dp_snow_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_f_roof_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_f_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_f_snow_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_2_floors_f_snow_decor",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_roof_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_04_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_05_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_pipe",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_abandoned_snow_pipe_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_roof_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_01_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_02_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_03_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_04_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_05",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_05_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_05_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_06",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_06_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_building_3_floors_a_snow_dp_06_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_decals",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_a_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_annex_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_annex_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_b_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_roof_snow_annex_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_annex",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_annex_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_annex_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_pipe",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_town_house_1_floor_c_snow_roof_snow_annex_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_a_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_annex_b_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_annex_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_annex_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_annex_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_annex_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_annex_b_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_dp_04_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_r_snow_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_roof_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_roof_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_roof_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_roof_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_01",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_01_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_02",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_02_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_03",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_03_dmg",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_04",
+      "immortal": true,
+      "dmPreset": "glass_penetration"
+    },
+    {
+      "name": "european_village_barn_a_snow_dp_04_dmg",
       "immortal": true,
       "dmPreset": "glass_penetration"
     },
@@ -161603,6 +162782,57 @@
       "material": "snow",
       "stopsBullets": false
     },
+    "sapa_borer_a_base_a_destroyed_snow": {
+      "physRes": "sapa_borer_a_base_a_destroyed_snow_destr_phobj",
+      "hp": 1.0,
+      "isParent": false,
+      "impulseThreshold": 0.0,
+      "fx": "ad_metal_snow",
+      "material": "snow",
+      "stopsBullets": false
+    },
+    "sapa_borer_a_base_b_destroyed_snow": {
+      "physRes": "sapa_borer_a_base_b_destroyed_snow_destr_phobj",
+      "hp": 1.0,
+      "isParent": false,
+      "impulseThreshold": 0.0,
+      "fx": "ad_metal_snow",
+      "material": "snow",
+      "stopsBullets": false
+    },
+    "sapa_borer_a_base_c_destroyed_snow": {
+      "physRes": "sapa_borer_a_base_c_destroyed_snow_destr_phobj",
+      "hp": 1.0,
+      "isParent": [
+        false,
+        true
+      ],
+      "impulseThreshold": 0.0,
+      "fx": "ad_metal_snow",
+      "material": "snow",
+      "stopsBullets": false
+    },
+    "pv_opel_blitz_kfz_305_destroyed_a_cabine_snow": {
+      "physRes": "pv_opel_blitz_kfz_305_destroyed_a_cabine_snow_destr_phobj",
+      "hp": 1.0,
+      "isParent": false,
+      "impulseThreshold": 0.0,
+      "fx": "ad_metal_snow",
+      "material": "snow",
+      "stopsBullets": false
+    },
+    "pv_opel_blitz_kfz_305_destroyed_a_snow": {
+      "physRes": "pv_opel_blitz_kfz_305_destroyed_a_snow_destr_phobj",
+      "hp": 1.0,
+      "isParent": [
+        false,
+        true
+      ],
+      "impulseThreshold": 0.0,
+      "fx": "ad_metal_snow",
+      "material": "snow",
+      "stopsBullets": false
+    },
     "opel_blitz_kfz_305": {
       "physRes": "opel_blitz_kfz_305_destr_phobj",
       "hp": 20.0,
@@ -172704,14 +173934,14 @@
     "metal_lattice_gates_c": {
       "physRes": "metal_lattice_gates_c_destr_phobj",
       "hp": 20.0,
-      "dmPreset": "metal_props",
+      "dmPreset": "dural_props",
       "fx": "ad_metal",
       "material": "metal"
     },
     "metal_lattice_gates_c_snow": {
       "physRes": "metal_lattice_gates_c_snow_destr_phobj",
       "hp": 20.0,
-      "dmPreset": "metal_props",
+      "dmPreset": "dural_props",
       "fx": "ad_metal",
       "material": "metal"
     },
@@ -177420,16 +178650,17 @@
       "impulseThreshold": 0.15,
       "fx": "ad_haystack",
       "fxScale": 1.0,
-      "dmPreset": "bush_props"
+      "dmPreset": "bush_props",
+      "isParent": true
     },
     "haystack_a_snow": {
-      "nextRes": "haystack_a_dmg",
       "physRes": "haystack_a_snow_destr_phobj",
       "hp": 5.0,
       "impulseThreshold": 0.15,
-      "fx": "ad_haystack",
+      "fx": "ad_wood_snow_big",
       "fxScale": 1.0,
-      "dmPreset": "bush_props"
+      "dmPreset": "bush_props",
+      "isParent": true
     },
     "japan_haystack_a": {
       "nextRes": "japan_haystack_a_dmg",

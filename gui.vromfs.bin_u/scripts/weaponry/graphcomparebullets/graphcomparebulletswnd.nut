@@ -14,9 +14,7 @@ let { graphColorList, getBulletCacheSaveId
 } = require("%scripts/weaponry/graphCompareBullets/bulletsGraphState.nut")
 let { round_by_value } = require("%sqstd/math.nut")
 let { secondsToMilliseconds, millisecondsToSeconds } = require("%sqstd/time.nut")
-let { getStatCardInfo } = require("%scripts/unit/statCardInfo.nut")
-let getAllUnits = require("%scripts/unit/allUnits.nut")
-
+let { showConsoleButtons } = require("%scripts/options/consoleMode.nut")
 
 const MAX_PLAY_VALUE = 1000
 
@@ -52,35 +50,6 @@ function getStartPlayingTime(curPlayValue, maxPlayTimeMs) {
   return curTimeMs - getPlayTimeMs(curPlayValue, maxPlayTimeMs)
 }
 
-function getUnitRocketStructure() {
-  let structure = {}
-  let statCardInfo = getStatCardInfo()
-
-  foreach (unit in getAllUnits()) {
-    if (!unit.isVisibleInShop())
-      continue
-
-    let { name, esUnitType, shopCountry, rank } = unit
-    if (!(statCardInfo?[name].hasRockets ?? false)
-        && (esUnitType == ES_UNIT_TYPE_AIRCRAFT || esUnitType == ES_UNIT_TYPE_HELICOPTER))
-      continue
-
-    if (esUnitType not in structure)
-      structure[esUnitType] <- {}
-
-    if (shopCountry not in structure[esUnitType])
-      structure[esUnitType][shopCountry] <- {}
-
-    if (rank not in structure[esUnitType][shopCountry])
-      structure[esUnitType][shopCountry][rank] <- {}
-
-    if (name not in structure[esUnitType][shopCountry][rank])
-      structure[esUnitType][shopCountry][rank][name] <- true
-  }
-
-  return structure
-}
-
 
 let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
   wndType = handlerType.MODAL
@@ -113,6 +82,7 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
   startPlayingTimeMs = 0
 
   applySelectedOptionAfterInit = false
+  structure = null
 
   function initScreen() {
     this.compareBulletsList = []
@@ -125,7 +95,7 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
       optionsList      = bulletsBallisticOptions
       onChangeOptionCb = Callback(this.onChangeOption, this)
       goBackCb         = Callback(this.goBack, this)
-      structure        = getUnitRocketStructure()
+      structure        = this.structure
     })
 
     this.registerSubHandler(optionsHandler)
@@ -236,11 +206,17 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
       @(bullet) needActualize(cacheList?[getBulletCacheSaveId(bullet)], settings, bullet))
     if (bulletForRequest != null) {
       this.hasRequestGraphData = true
+      this.showGraphRequestProgress(true)
       requestGraphData(bulletForRequest, settings, handlerCb)
       return
     }
 
+    this.showGraphRequestProgress(false)
     this.updateBulletsGraphDataImpl(getGraphDataFromCache(this.compareBulletsList, this.cacheForPages[cacheDataId]))
+  }
+
+  function showGraphRequestProgress(show) {
+    showObjById("graph_reques_progress", show, this.scene)
   }
 
   function requestGraphData() {
@@ -404,7 +380,9 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
     this.compareBulletsList.append(this.curBullet)
     this.updateBulletsGraphData()
     this.updateButtons()
-    this.updateBulletInList(this.compareBulletsList.len() - 1)
+    let lastBulletIdx = this.compareBulletsList.len() - 1
+    this.updateBulletMarginInList(lastBulletIdx - 1)
+    this.updateBulletInList(lastBulletIdx)
   }
 
   function getBulletObj(idx) {
@@ -413,6 +391,14 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
       return bulletsListObj.getChild(idx)
 
     return bulletsListObj.getChild(idx - 1).getClone(bulletsListObj, this)
+  }
+
+  function updateBulletMarginInList(idx, obj = null) {
+    if (idx < 0)
+      return
+    obj = obj ?? this.getBulletObj(idx)
+    let isLastIdx = idx == (this.compareBulletsList.len() - 1)
+    obj["margin-right"] = isLastIdx ? 0 : "1@weaponFramePadding"
   }
 
   function updateBulletInList(idx) {
@@ -425,8 +411,14 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
 
     let deleteBtnObj = obj.findObject("delete_btn")
     deleteBtnObj.holderId = idx.tostring()
+    this.updateBulletMarginInList(idx, obj)
     obj.findObject("bullet_name").setValue(bulletData.locName)
     obj.findObject("graph_legend").graphColor = graphColorList[idx].hex
+    let isTooltipByHold = showConsoleButtons.get()
+    let { tooltipId } = bulletData
+    let descObj = obj.findObject("bullet_desc")
+    descObj.title = isTooltipByHold ? "" : "$tooltipObj"
+    descObj.tooltipId = isTooltipByHold ? tooltipId : ""
     obj.findObject("tooltip_nest").tooltipId = bulletData.tooltipId
     let layeredIcon = handyman.renderCached("%gui/weaponry/bullets.tpl", bulletData.layeredIconData)
     this.guiScene.replaceContentFromText(obj.findObject("bullet_icon"), layeredIcon, layeredIcon.len(), this)
@@ -451,6 +443,7 @@ let GraphCompareBulletsWnd = class (gui_handlers.BaseGuiHandlerWT) {
     let curVisibleBulletCount = this.compareBulletsList.len()
     let bullet = this.compareBulletsList.remove(bulletIdx)
     this.removeCachesForBullet(bullet)
+    this.updateBulletMarginInList(bulletIdx - 1)
     for (local idx = bulletIdx; idx < curVisibleBulletCount; idx++)
       this.updateBulletInList(idx)
 

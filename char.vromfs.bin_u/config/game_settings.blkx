@@ -3301,7 +3301,9 @@
     "XboxIngameShop": {
       "condition": ""
     },
-    "forceYesterdayForEveryDayLoginAward": {},
+    "forceYesterdayForEveryDayLoginAward": {
+      "condition": ""
+    },
     "Tutorials": {
       "condition": ""
     },
@@ -3648,6 +3650,9 @@
     "RecycleItemShop": {
       "condition": ""
     },
+    "AssistantMap": {
+      "condition": ""
+    },
     "HangarSceneOption": {
       "condition": ""
     },
@@ -3658,9 +3663,6 @@
         "role_TESTER",
         "perm_feature.debug"
       ]
-    },
-    "FullScreenCrewWindow": {
-      "condition": ""
     }
   }
 }

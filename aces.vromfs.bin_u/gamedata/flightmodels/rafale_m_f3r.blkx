@@ -2537,6 +2537,18 @@
     "nozzleMoveSfx": "nozzle_turning",
     "nozzleAngleThreshold": 0.05
   },
+  "hook": {
+    "coeffHookJ": 0.03,
+    "hookDeflectionAngles": [
+      -40.0,
+      20.0
+    ],
+    "hookCxDiap": [
+      0.2,
+      0.9
+    ],
+    "hookMass": 40.0
+  },
   "rwr": {
     "modeLamps": {
       "launchLamp": 0,
@@ -2947,14 +2959,16 @@
         800,
         600
       ],
-      "noiseFactor": 0.04
+      "noiseFactor": 0.04,
+      "index": 1
     },
     "sightTPodThermal": {
       "resolution": [
         1200,
         800
       ],
-      "noiseFactor": 0.04
+      "noiseFactor": 0.04,
+      "index": 2
     },
     "gunnerIr": {
       "resolution": [
@@ -3009,6 +3023,7 @@
       ],
       "opticType": "tv",
       "turretNo": 0,
+      "nvIndex": 1,
       "name": "HAMMER"
     },
     "Target": {
@@ -3026,7 +3041,8 @@
         15.0
       ],
       "opticType": "targeting",
-      "turretNo": 0
+      "turretNo": 0,
+      "nvIndex": 2
     }
   },
   "sensors": {

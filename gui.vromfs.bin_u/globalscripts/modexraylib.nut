@@ -1190,7 +1190,7 @@ function mkAmmoDesc(partType, params, commonData) {
 function getModernArmorParamsByDmPartName(partName, commonData) {
   let { unitBlk } = commonData
   local res = {
-    isComposite = partName.startswith("composite_armor") || partName.startswith("firewall_armor")
+    isComposite = partName.startswith("composite_armor") || (partName.startswith("firewall_armor") || partName.startswith("ex_skirt_composite_armor"))
     titleLoc = ""
     armorClass = ""
     referenceProtectionArray = []
@@ -2426,6 +2426,7 @@ return {
   getInfoBlk
 
   getRadarSensorType
+  addBandsText
   getPartLocNameByBlkFile
   findBlockByNameWithParamValue
   findParamValue

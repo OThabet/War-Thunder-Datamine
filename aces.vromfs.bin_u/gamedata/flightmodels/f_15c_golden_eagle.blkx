@@ -2715,6 +2715,18 @@
     "nozzleMoveSfx": "nozzle_moving_3",
     "nozzleAngleThreshold": 0.05
   },
+  "hook": {
+    "coeffHookJ": 0.03,
+    "hookDeflectionAngles": [
+      -50.0,
+      10.0
+    ],
+    "hookCxDiap": [
+      0.2,
+      0.9
+    ],
+    "hookMass": 10.0
+  },
   "cockpit": {
     "mfdTextureSize": [
       1024,
@@ -4870,7 +4882,8 @@
         "tank9_dm",
         "tank10_dm",
         "tank11_dm",
-        "electronic_block4_dm"
+        "electronic_block4_dm",
+        "electronic_block6_dm"
       ]
     },
     "WeaponSlot": [
@@ -7705,6 +7718,9 @@
                 "an_aaq_33_sniper_atp",
                 "optic2_turret"
               ]
+            },
+            "ShowDmParts": {
+              "node": "electronic_block6_dm"
             },
             "Weapon": {
               "trigger": "targetingPod",

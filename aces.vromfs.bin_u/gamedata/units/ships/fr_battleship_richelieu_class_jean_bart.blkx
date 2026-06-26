@@ -1751,6 +1751,11 @@
         "armorThickness": 60.0,
         "hp": 10000.0
       },
+      "turret_10_front_dm": {
+        "armorClass": "ship_RHA",
+        "armorThickness": 30.0,
+        "hp": 10000.0
+      },
       "turret_11_front_dm": {
         "armorClass": "ship_RHA",
         "armorThickness": 30.0,
@@ -13903,7 +13908,7 @@
       "unlockId": "ship_flag_greece_02",
       "nameLocId": "ship_flag_greece_02/name",
       "descLocId": "ship_flag_greece_02/desc",
-      "texture": "ship_flag_greece_02_с*"
+      "texture": "ship_flag_greece_02_c*"
     },
     "ship_flag_afganistan_01": {
       "category": "national",

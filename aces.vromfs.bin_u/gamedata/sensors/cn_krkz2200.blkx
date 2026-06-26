@@ -1,6 +1,6 @@
 {
   "type": "rwr",
-  "name": "K/RKZ2200",
+  "name": "K/RKZ",
   "power": 250.0,
   "txAngle": [
     5.0,
@@ -36,6 +36,9 @@
   "targetHoldTime": 5.0,
   "newTargetHoldTime": 3.0,
   "mandatoryRecognition": false,
+  "band2": true,
+  "band3": true,
+  "band10": true,
   "receivers": {
     "receiver": [
       {

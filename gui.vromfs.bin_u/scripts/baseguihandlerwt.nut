@@ -449,10 +449,9 @@ let BaseGuiHandlerWT = class (BaseGuiHandler) {
 
     if (u.isString(nest))
       nest = this.scene.findObject(nest)
-    params.scene <- nest
-    params.ownerWeak <- this.weakref()
 
-    let slotbar = this.createSlotbarHandler(params)
+    let slotbar = this.createSlotbarHandler(
+      params.__merge({ scene = nest, ownerWeak = this.weakref() }))
     if (!slotbar)
       return
 
@@ -899,7 +898,3 @@ let BaseGuiHandlerWT = class (BaseGuiHandler) {
 }
 
 gui_handlers.BaseGuiHandlerWT <- BaseGuiHandlerWT
-
-return {
-  stickedDropDown
-}
